@@ -1,0 +1,807 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8adbd34d4af4e0481b8938680fc1b6e, type: 3}
+  m_Name: ItemsPreset
+  m_EditorClassIdentifier: 
+  itemViewDatas:
+  - Id: Acorn
+    ItemView: {fileID: -1454440540349175445, guid: cef479039c0092348bbc0a0bcbae0fa1, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 27a6826e44a5d844eb4081ecbf6c581d, type: 3}
+  - Id: Airplane
+    ItemView: {fileID: -1454440540349175445, guid: 8532804bbccb24c4aa725bd74c51a3c4, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 5bca935f4b7b9aa49ae946b232961fec, type: 3}
+  - Id: Airplane4
+    ItemView: {fileID: -1454440540349175445, guid: 725426cf337c06747af550eae77f0c58, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 34d75474e40f68f4e9a793fa1f5e77be, type: 3}
+  - Id: Ant
+    ItemView: {fileID: -1454440540349175445, guid: 21c714098b2864841a72cb80c76afb15, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: ad2a291b0da0a844fb98479848a8de3b, type: 3}
+  - Id: Apple
+    ItemView: {fileID: -1454440540349175445, guid: a889a30c59f0f374e867216ad4174f35, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 090802ce933af7646b3d43bfaf37b7b6, type: 3}
+  - Id: Apple1
+    ItemView: {fileID: -1454440540349175445, guid: 32c5a33d9d989e345a4b2ca620593101, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 0d1acef4a2a0ba24d9b5b7af472b1edf, type: 3}
+  - Id: Apple3
+    ItemView: {fileID: -1454440540349175445, guid: 1db33aee2d32608489028302fcb285af, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: b0cf8261ebfb0ba49b3af18e98a392cb, type: 3}
+  - Id: ApplePieSlice
+    ItemView: {fileID: -1454440540349175445, guid: dd9f489f6c1722e43996bf605026c153, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 0480c9602925896448d630a8fc16f999, type: 3}
+  - Id: Backpack
+    ItemView: {fileID: -1454440540349175445, guid: 2920b8b3bf66c5e439f0652599a3b143, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 0d0c49656e09fae4996d04fff8621caf, type: 3}
+  - Id: Bag
+    ItemView: {fileID: -1454440540349175445, guid: 51570b6c287981c44ab0073e10530135, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: b4415606f1243ae47818516d76c96ac7, type: 3}
+  - Id: Ball
+    ItemView: {fileID: -1454440540349175445, guid: 17657ff7db5be5f4887b6b4e51f80306, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 039d580d298250b4b9281f9f0f6330fd, type: 3}
+  - Id: Balloon
+    ItemView: {fileID: -1454440540349175445, guid: a73176a7213ed574499cea10ddfdcf05, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: c033633fc66156947b78469d2ff66df7, type: 3}
+  - Id: Banana
+    ItemView: {fileID: -1454440540349175445, guid: 8fcf040e8698c264992ed69c3d594291, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 44dd4b4f601008e4196d98a261787c31, type: 3}
+  - Id: Basket
+    ItemView: {fileID: -1454440540349175445, guid: 9b028567c2f50ae429596c24efee118a, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 503d13bb0f3bb33489e8362fac9154e2, type: 3}
+  - Id: Basket1
+    ItemView: {fileID: -1454440540349175445, guid: 2a7282cd056316e4a92fc974c20302e7, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 42de68aeb2124444ba1923833ac7fc3c, type: 3}
+  - Id: Basket2
+    ItemView: {fileID: -1454440540349175445, guid: 9215e3b175d1b4d44b00aa2ff44c88e8, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 133292dbc533ba04f9dddd62efce40a5, type: 3}
+  - Id: Basketball
+    ItemView: {fileID: -1454440540349175445, guid: 67f0fafce68bc094b90c6867c27ca278, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 5db442798c7dfe44892fec0ccef5bd9e, type: 3}
+  - Id: Bee
+    ItemView: {fileID: -1454440540349175445, guid: 546e811e9c2906841b0a32ce3a7f54f4, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 3ab186b971f7037429d189e23d4fafa9, type: 3}
+  - Id: Bee1
+    ItemView: {fileID: -1454440540349175445, guid: 1296821d9cad4f04eb39d8e0f59c76c3, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: e445b087a7b088f4eb0bf2335246cbd8, type: 3}
+  - Id: Bell
+    ItemView: {fileID: -1454440540349175445, guid: cccac415eaf6ebf45aadbeffa300a05d, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: ed28511067a95154892d2d17e0f0e9f6, type: 3}
+  - Id: Binoculars1
+    ItemView: {fileID: -1454440540349175445, guid: c5124e4fde47b6a499490d49948e7e67, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: cc0f790be3075694fa027686ce0a982a, type: 3}
+  - Id: Bone
+    ItemView: {fileID: -1454440540349175445, guid: d6c10ec9613e412488ce5cc81e02c7f7, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 8ca0c177279151e4bbac34bce138c1b4, type: 3}
+  - Id: Book
+    ItemView: {fileID: -1454440540349175445, guid: 1ef90337f367c5c48b17ad1cb630a4ac, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: e6bf79e20d446be4da941f7146acd6e6, type: 3}
+  - Id: Book3
+    ItemView: {fileID: -1454440540349175445, guid: 5d2a1f42dee8b1049b4f504dbbf95736, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 71490d47f4f0b564d91297f495f46192, type: 3}
+  - Id: Book4
+    ItemView: {fileID: -1454440540349175445, guid: 64f6734c17561524a94a1f2b7096362e, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 54c32a037c768054d92068328036c96d, type: 3}
+  - Id: Bread
+    ItemView: {fileID: -1454440540349175445, guid: f40dba239a39a764a86153551f6e85c4, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: dd9f00b355c13c642ae7232a4a28ee47, type: 3}
+  - Id: Broom
+    ItemView: {fileID: 4447373674037914907, guid: 7fa96e79d361c994bae4f6441473b9c6, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 68266de0df31d6b40a957c1c8ef8785c, type: 3}
+  - Id: Bubble1
+    ItemView: {fileID: -1454440540349175445, guid: 39f61919b634450459fa69888e51e1ae, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 102059cb0e8333d49b4efe45262151e5, type: 3}
+  - Id: Bunny
+    ItemView: {fileID: -1454440540349175445, guid: 1b9ac76b454b8084c97424af83bc568c, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: ef9dbcc953e350a4d95bbb169758b1cf, type: 3}
+  - Id: Bunny1
+    ItemView: {fileID: -1454440540349175445, guid: 9695af5c6cf0ab3479aed9fed0230a42, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: b61f5d86ff5f95344a07a7d400053bf8, type: 3}
+  - Id: Butterfly4
+    ItemView: {fileID: -1454440540349175445, guid: 09c7975834a66a444bb56af75e62195c, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 9284bcb9eab70524c9780204056b6910, type: 3}
+  - Id: Cactus_1
+    ItemView: {fileID: 7521509898496893431, guid: f316198ba026341bd87e606cc09ed7df, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: b8e672b08adf5d441824728b9aac3b32, type: 3}
+  - Id: Cake
+    ItemView: {fileID: -1454440540349175445, guid: 2cf94e956b96a8f49ba1f239e4288b3b, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: e7fe56bac216de444a6bf4592458a412, type: 3}
+  - Id: CakeSlice1
+    ItemView: {fileID: -7268882616052974701, guid: 2d028c88f26f74e0d9160a032f6cfec6, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: d1273fc1b53fd884284477c184d0c886, type: 3}
+  - Id: Can2
+    ItemView: {fileID: -1454440540349175445, guid: 2876c4d18e6617643b36e9ea4c831e13, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 8f44fe058a9abf64686c4c6319d1e440, type: 3}
+  - Id: Candy
+    ItemView: {fileID: -1454440540349175445, guid: d9ef405d0c46086479e09892b1917c87, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 0da12afb0e4456a45b56c8ed1261ab19, type: 3}
+  - Id: Car1
+    ItemView: {fileID: -1454440540349175445, guid: 46f82baa3a052b6498b61088ff4d366b, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 5d4cfbfdd1f523747b05e04de76a5842, type: 3}
+  - Id: Carrot
+    ItemView: {fileID: -1454440540349175445, guid: 4bcf400dced230249ab7482725ec77b7, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 08f447a8dc76e62468cf606eb3c92cf7, type: 3}
+  - Id: Cat
+    ItemView: {fileID: -1454440540349175445, guid: 8e6b3b9e90cb27246af6d265876363d6, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 3e0ac4389497c914b9337d69f1a3ca51, type: 3}
+  - Id: Chair
+    ItemView: {fileID: -1454440540349175445, guid: 7e4901cf99522714d99dfb69357adb02, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: c2bb5bd775e42824aab287f4d29a4a0e, type: 3}
+  - Id: Cheese
+    ItemView: {fileID: -1454440540349175445, guid: 340456b2201be034dbc8a48ab242df39, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: fbbdae6968b0e064caaae29ff2ff9b1c, type: 3}
+  - Id: Cherry
+    ItemView: {fileID: -1454440540349175445, guid: fdb66a9e1af95bc42bd4a0f141481a81, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 02a9508250be65a45b94ccffd68f67ca, type: 3}
+  - Id: CoffeeMug
+    ItemView: {fileID: -1454440540349175445, guid: e52ac193c432e1747a14a54eb235576d, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: e6630edd1ad3f52418a39de7e9b33c7d, type: 3}
+  - Id: Cow
+    ItemView: {fileID: -1454440540349175445, guid: 11a624c831c5e8f4095c4c7c87b38797, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 53fdf023396f4dc418aeb539c20e591c, type: 3}
+  - Id: Croissant
+    ItemView: {fileID: -1454440540349175445, guid: 8481d6cdce071034fa08f5b863eab1f4, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 25a8412167e1aac4488370bddc49767d, type: 3}
+  - Id: Crown
+    ItemView: {fileID: -1454440540349175445, guid: 9e0a3cc360ed6bc4f8f5bd6e3858f80c, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 7674333dd3922b64091f44be11bf66f7, type: 3}
+  - Id: Cup
+    ItemView: {fileID: -1454440540349175445, guid: 670f860a07757324b990dcf971f51a92, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 2d04ca75e2d494f4fb554fcb7e4329aa, type: 3}
+  - Id: Cup3
+    ItemView: {fileID: -1454440540349175445, guid: 5436a9dba7deaa548b195423d9e9981f, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: a45483659b324ca4dbc598f05e00c8d9, type: 3}
+  - Id: Desk
+    ItemView: {fileID: -1454440540349175445, guid: c6612c1f85c833542ba3bf761b73426f, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: b135b267a912761429cc96970a9350c2, type: 3}
+  - Id: Diamond1
+    ItemView: {fileID: -1454440540349175445, guid: ec791026a5fa0c94ea88fe5c12d018d3, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: e455a0eee817d574696ff31f11a2d95d, type: 3}
+  - Id: Diamond2
+    ItemView: {fileID: -1454440540349175445, guid: c6e209fbb95b8f042835d3f37eff450c, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: d2c5d759e3ed5424f98d73040a79836a, type: 3}
+  - Id: Diamond3
+    ItemView: {fileID: -1454440540349175445, guid: 41c39641677ccd845904485592a63936, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 46115e20bdf30fd44b8b29ec07829bff, type: 3}
+  - Id: Dice
+    ItemView: {fileID: -1454440540349175445, guid: 79eb04d85208f924e9bdd33e80277b77, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: fd16111cf5e593d42bf19550d8bf3203, type: 3}
+  - Id: DinosaurEgg
+    ItemView: {fileID: -1454440540349175445, guid: b9066a4df1cefb643af0888f6b245960, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 18501f98131564c46a0791d116ab8700, type: 3}
+  - Id: DinosaurEgg3
+    ItemView: {fileID: -1454440540349175445, guid: 2bd0dd3f51581d547b7f37c2eed7ad5f, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 58c08bbfb27fb3646a9d609bbe3de74a, type: 3}
+  - Id: DinosaurEgg5
+    ItemView: {fileID: -1454440540349175445, guid: bd16f0ae26c683246968da52a62803c5, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: f59a443e6e14dfc4c9be431cb3a333f1, type: 3}
+  - Id: Dog
+    ItemView: {fileID: -1454440540349175445, guid: 5f5cf8c54a2eee549badcfc30d672a70, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: d01e17f62f1eb624b8c5cac8d92bcf57, type: 3}
+  - Id: Donut
+    ItemView: {fileID: -1454440540349175445, guid: 314bdf695ef872c46b045f1a5127cc35, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: f1d688b558a66af419a3e645ef8efeda, type: 3}
+  - Id: Dragonfly
+    ItemView: {fileID: -1454440540349175445, guid: c2affec02eafc6b469a0553dce7ab34f, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 666580f50b9d3cd42bee9f9db9d3beb6, type: 3}
+  - Id: Drum
+    ItemView: {fileID: -1454440540349175445, guid: 666028167fe12fb4bbdb70709ab35b43, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 8f87dff403dfaf34b8f756ed3568f1b2, type: 3}
+  - Id: Drink_1
+    ItemView: {fileID: 8358767339579393084, guid: 9703ef482422f4dc3a859b5e71c1c1f5, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 599a7b24c90d4ba408a9998be6087210, type: 3}
+  - Id: Duck
+    ItemView: {fileID: -1454440540349175445, guid: b0e8808de2df79343b7e4fa425ae2263, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 19bebdeadf9e736449c07331a84fd85b, type: 3}
+  - Id: Eagle
+    ItemView: {fileID: -1454440540349175445, guid: f824e00576183ea42b4700039f323d48, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 6f9a0d57850318348b4520ac4cce2092, type: 3}
+  - Id: EighthNote
+    ItemView: {fileID: -1454440540349175445, guid: 4536db65a245b7e438dafb22a281a72a, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 89520090be5ff07478daec459a8ab813, type: 3}
+  - Id: EighthNote1
+    ItemView: {fileID: -1454440540349175445, guid: 2d6e58a139bb8454890631cc20403155, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: b2192f320fbec2d46aef845032f329f0, type: 3}
+  - Id: EighthNote4
+    ItemView: {fileID: -1454440540349175445, guid: 77eba6e833df39d4081ba244768100c2, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 13792ae413d1f8d4f8594dc1bbc26100, type: 3}
+  - Id: Elephant
+    ItemView: {fileID: -1454440540349175445, guid: 12d44112a7168de4e87216df0c86300f, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 41ea7730e9d0c4146acc2edf33381d52, type: 3}
+  - Id: ExclamationMark
+    ItemView: {fileID: -1454440540349175445, guid: 39bd2aeac3deb2043b74e3ee1754c537, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 5cb28530109c60b418da7f13a9afd658, type: 3}
+  - Id: Fan
+    ItemView: {fileID: -1454440540349175445, guid: fc4fed5b0b5127841964dc8eb74aded7, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 53fcf72472c13ea4095d9bc756b0684e, type: 3}
+  - Id: Fish
+    ItemView: {fileID: -1454440540349175445, guid: 886d41a940616ec4ab8ff6aafa70a50a, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 96573e85246b75242be4151aab6546a5, type: 3}
+  - Id: Fly
+    ItemView: {fileID: -1454440540349175445, guid: f1da1df391befe34a93569bcd7a65a51, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: e0d632febb8f2434b968893b91ec0a24, type: 3}
+  - Id: Football
+    ItemView: {fileID: -1454440540349175445, guid: 497cfcd35942a2e4a9f7896eff724a8f, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 2a19c3e4f007310428b9e08b45605b70, type: 3}
+  - Id: Fox
+    ItemView: {fileID: -1454440540349175445, guid: 0dcb5c577a740e94d954156781595fc3, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 55290841cabb44949bbc9e18d809065c, type: 3}
+  - Id: FrenchBread
+    ItemView: {fileID: -1454440540349175445, guid: aa585d0e648e38f4a9c48f9b7de0b6e7, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: dd9daedbd03a00c4db934d8e60fea57f, type: 3}
+  - Id: FriedEgg
+    ItemView: {fileID: -1454440540349175445, guid: 7b152a2cac8489b449603f1d261774a4, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 19a9d5930f106f54db6133d32baca8c4, type: 3}
+  - Id: Frog
+    ItemView: {fileID: -1454440540349175445, guid: 57e868d298b7d064b936623c4cb70db5, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 0d01bad378f2ee940934beb0b08f549e, type: 3}
+  - Id: Garlic
+    ItemView: {fileID: -1454440540349175445, guid: b9bcf2fabfb4d0b48b9308cd6934b1d6, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: cb4d327c52c7f57469bd9e26ee3c3253, type: 3}
+  - Id: Gear
+    ItemView: {fileID: -1454440540349175445, guid: 6fff0efd44efff44e971823703874df0, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 9c7a742715436b24ab6edc9349f6ae65, type: 3}
+  - Id: Ghost
+    ItemView: {fileID: -1454440540349175445, guid: 2d4bf5f55659a4a4e8e1fb447e11168a, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 5ab0c3cadc4edf64a84340ca34fc4f6e, type: 3}
+  - Id: Giftbox
+    ItemView: {fileID: -1454440540349175445, guid: e34662f6b912eb14d842d15c823539ac, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 225ab92a5f90c3e47b6dae089b9afe64, type: 3}
+  - Id: Giftbox1
+    ItemView: {fileID: -1454440540349175445, guid: affca4cbc2e6b7e4ebb0a377c8ce36f9, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: c56bc3371ad449b4fbb969b2319c5875, type: 3}
+  - Id: Giftbox2
+    ItemView: {fileID: -1454440540349175445, guid: c541c38fa55266b4a85c8c28a5eaf1a5, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: eea0e744febb8204a8349d5fb480fcb9, type: 3}
+  - Id: Giftbox4
+    ItemView: {fileID: -1454440540349175445, guid: 28ad5e0958122e14e909c620b2ff9378, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 4c5d07a27385ea24297730a63b5cf020, type: 3}
+  - Id: Giraffe
+    ItemView: {fileID: -1454440540349175445, guid: a0fb0fb0255523242abb5fc3efa9bc25, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 01e7977a229cf5d43963f9c5a4cd9e31, type: 3}
+  - Id: Globe
+    ItemView: {fileID: -1454440540349175445, guid: 82e6bc9918fbf54498af584879f525c0, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: f38e9dbffc5ec5341a6ff572be7caf78, type: 3}
+  - Id: Grape
+    ItemView: {fileID: 8971129966168499410, guid: c03e699e140f30d47869f748383ff6d8, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 6dbbadf787f6ab14384daed90df0fbff, type: 3}
+  - Id: Guitar
+    ItemView: {fileID: -1454440540349175445, guid: b91ebad01866df849acb183a0c45328c, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 924555a39b208e148988a83d07ef7276, type: 3}
+  - Id: Ham
+    ItemView: {fileID: -1454440540349175445, guid: 08421f2ba460e7145a33dd7edfb96b23, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 504664bd5ed3fce49a5d54f0995d2705, type: 3}
+  - Id: HamburgerNormal
+    ItemView: {fileID: -1454440540349175445, guid: c2be591141c635b4283f03747738d9e5, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 1e81447d94e266443b6045b3aff9eb0e, type: 3}
+  - Id: Harp
+    ItemView: {fileID: -1454440540349175445, guid: 0ae1b9619056c6b43b9b8aff9df0a55c, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 430415a44884cbd4c8c578e52964aaeb, type: 3}
+  - Id: Hat
+    ItemView: {fileID: -1454440540349175445, guid: 29a81958a81259d468e8e5b5f314c96c, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 0d8ac85fa2c38474680bb9dba14adee6, type: 3}
+  - Id: Hen
+    ItemView: {fileID: -1454440540349175445, guid: 2c26e8622b97f3b4484eb122fd460f85, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 413178dfbe8dc1644b41f6828b0768d8, type: 3}
+  - Id: HighlighterPen2
+    ItemView: {fileID: -1454440540349175445, guid: a83bba3e6c525594da23b3076d22ece7, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: cde1fe202507c9f4ab85e3e9f19f63db, type: 3}
+  - Id: Hippo
+    ItemView: {fileID: -1454440540349175445, guid: 4fa2d6be7af49464ea4477dfe0d4c11c, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: ec4b8fa073cfebf4a9b6542c7c39204c, type: 3}
+  - Id: HoneyJar
+    ItemView: {fileID: -1454440540349175445, guid: e9230b6563c657c479ae7ce43aed0002, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 8982f57505f6ab14e8b712bddff47b57, type: 3}
+  - Id: Horse
+    ItemView: {fileID: -1454440540349175445, guid: bf1fea27668cc0f4db907cfd043756c1, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: cb2ec3b2dd7129947a363f7277218d57, type: 3}
+  - Id: Hotdog
+    ItemView: {fileID: 4447373674037914907, guid: 0a74cd18b6c9342ab8eaf1c6a677548b, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 067f704ebdbd38740969fa3f421581e0, type: 3}
+  - Id: Ice
+    ItemView: {fileID: -1454440540349175445, guid: b6680256492616f4fb06caa3f37e0082, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 1b7603fde50445a41b07ab65c6bf95ef, type: 3}
+  - Id: Icecream
+    ItemView: {fileID: -1454440540349175445, guid: fff02c9f73ded4465b8773f068c49644, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: ce6b53744f02b1b4fb3816798aa2007f, type: 3}
+  - Id: Igloo
+    ItemView: {fileID: -1454440540349175445, guid: 6fdb59a201365da43a2344a1bab98b96, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: fd5f815e36f283046832ab89ab36575b, type: 3}
+  - Id: Ink
+    ItemView: {fileID: -1454440540349175445, guid: 462cf97c43ce332478aef338c277712c, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 15c575cf5d3b84442b3125f1c4eeaca6, type: 3}
+  - Id: Kettle
+    ItemView: {fileID: -1454440540349175445, guid: 82145cbac8fbe2c4f9c43e61e91a3d10, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 6a6bfcaa4314b034abeb51db4ffee9bd, type: 3}
+  - Id: Kiwi
+    ItemView: {fileID: -1454440540349175445, guid: 8cd5a013893350d46b52f00aa188e207, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: ceb6e30610b59bb4b87a4553d0554fd0, type: 3}
+  - Id: Kleenex
+    ItemView: {fileID: -1454440540349175445, guid: ba684dce66f4316458ec3072190e67fd, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: dcf0524553641804fade71d3f5941b13, type: 3}
+  - Id: Ladybug
+    ItemView: {fileID: -1454440540349175445, guid: 5c83a4b09ba53a54e94da8c763f1827d, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: b4d6f269548b23f4ebf518f2affb3865, type: 3}
+  - Id: Leaf
+    ItemView: {fileID: -1454440540349175445, guid: 9c2d3da6d2472f7479926c84405d7fa5, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: e88c3cab48306854190b1cbe4758aa93, type: 3}
+  - Id: Lemon
+    ItemView: {fileID: -1454440540349175445, guid: 142b114f4b9792e4fb7abaa07fbe3e13, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 2ae71be42ac686c498bcd61950855ed1, type: 3}
+  - Id: LesserPanda
+    ItemView: {fileID: -1454440540349175445, guid: aa09cef0f66567643a97aeffa93f790c, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 618421915d3d1104cbe3f6d968ef68fa, type: 3}
+  - Id: LobsterToy4
+    ItemView: {fileID: -1454440540349175445, guid: 618403ef2d63fbd42bcf78baf5e996a8, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: cffe703faac26284681f0bbb8d254418, type: 3}
+  - Id: Log
+    ItemView: {fileID: -1454440540349175445, guid: 5bcff9a1c60ef89459f52134e1e1754c, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 437ab0ae0bd8da449ab3afb1e9bd24b7, type: 3}
+  - Id: Macaron
+    ItemView: {fileID: -1454440540349175445, guid: 78d00d52b75391a499568deefef8daa5, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 61be17f0b147c7242bbf6ec33d4e5127, type: 3}
+  - Id: Meteor
+    ItemView: {fileID: -1454440540349175445, guid: cec29aa572985a34f8d9439b629aed0e, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 4aa4df6f4958115439aee9e26ae4f5fc, type: 3}
+  - Id: Mike
+    ItemView: {fileID: -1454440540349175445, guid: edc1dddfb64a992438639e32ff51dd01, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 4d71a0ea733ba1b4f9a307ad80f82067, type: 3}
+  - Id: Moon
+    ItemView: {fileID: -1454440540349175445, guid: 5bce7da839983ad43b21206d0ff1bda2, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 9c34438f6bff50f4296c47618543c53b, type: 3}
+  - Id: Muffin
+    ItemView: {fileID: -1454440540349175445, guid: c530c5e3b68679f4496df651ccf15e0f, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: a8f6c81a588bcab43bbbb66300d76cb8, type: 3}
+  - Id: Mushroom
+    ItemView: {fileID: -1454440540349175445, guid: 07fc73d22a6052947be21bdeaea0dfee, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 5a7fc23abd4d41e4cbe913493a4cd88e, type: 3}
+  - Id: Newspaper
+    ItemView: {fileID: -1454440540349175445, guid: 15e6668196305af48869b1b8ea744148, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 44746c9c8b3eebd49805a72df1af7660, type: 3}
+  - Id: Note
+    ItemView: {fileID: -1454440540349175445, guid: a3e378eea982b8a4099c3c56dc686189, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: fa805a70ebd076d488914cb38a41de9e, type: 3}
+  - Id: Number0
+    ItemView: {fileID: -1454440540349175445, guid: 815323b30e4178e489e33ea0db511dbe, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 84990d333b553e045882f2d370bc0f9f, type: 3}
+  - Id: Number2
+    ItemView: {fileID: -1454440540349175445, guid: 78111c5bf4570734fa6d017c153ee33c, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 964db29a39b878942958f2a371823d8d, type: 3}
+  - Id: Number4
+    ItemView: {fileID: -1454440540349175445, guid: 958ff1cece12beb4881d2e1394d9025e, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 58e3c002ae3af274598eb207f6c3f223, type: 3}
+  - Id: Number7
+    ItemView: {fileID: -1454440540349175445, guid: f9d6231bf0aeba24893e2ed53baf2943, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: d078cb32915a7064f9ac8d9d4d8b930e, type: 3}
+  - Id: Number8
+    ItemView: {fileID: -1454440540349175445, guid: 0690650e532bbd447aab2151ad70d48b, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: d166251b1e602a040a51cc05cf45fd35, type: 3}
+  - Id: Octopus1
+    ItemView: {fileID: -1454440540349175445, guid: 1a3897c4539ae3f4bb7ba8e664da797c, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 6b502d44bd5078e4d93a04e3b8696691, type: 3}
+  - Id: Octopus2
+    ItemView: {fileID: -1454440540349175445, guid: f6b95f9400359a74dad12e32c11438c6, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: d46b526b5da9fb9439e28d0dfc437fc2, type: 3}
+  - Id: Octopus4
+    ItemView: {fileID: -1454440540349175445, guid: 148caf32d046df34d99c190dbca1608d, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 31a928cfa82394145a498b2c0cf41863, type: 3}
+  - Id: Orange
+    ItemView: {fileID: -1454440540349175445, guid: bd72382cc8ef28a4b83e6dc392342572, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 221353bebf2509543b84deeeb5118762, type: 3}
+  - Id: Owl
+    ItemView: {fileID: -1454440540349175445, guid: 4be5c2baaed6f7943b5e0fe4cbc55f22, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: aef8b02a6af843844be4da75433e555e, type: 3}
+  - Id: Panda
+    ItemView: {fileID: -1454440540349175445, guid: 8ea74b9d086a5be408066f49a1110a42, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 6f320a5c3cba08442badc9ab1c3a7439, type: 3}
+  - Id: Pea
+    ItemView: {fileID: -1454440540349175445, guid: df73a7c84d8492e45bc5108604f62fec, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 89d2e9d39a8e2d34c8c1cdd50aec6677, type: 3}
+  - Id: Pen
+    ItemView: {fileID: -1454440540349175445, guid: 7a579ffffe6873743b112070feb928b0, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: f1dc4986a5f247c4eb1b3dd5b4c73320, type: 3}
+  - Id: Pencil
+    ItemView: {fileID: -1454440540349175445, guid: 4f652c91dfdb3a845b4490a0f8e01055, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 7f66b56ff69cf4146b73d3b3fac11d67, type: 3}
+  - Id: PencilColored8
+    ItemView: {fileID: -1454440540349175445, guid: 92ae44a08b36a094aa126afa137a5514, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 38edce1b0d0733e4a856e5415b03476c, type: 3}
+  - Id: Piano
+    ItemView: {fileID: -1454440540349175445, guid: 79c3aaf314d55a8498a83d72c029fdf7, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 2e0afb11a448c99438fd7e4cd417bc58, type: 3}
+  - Id: Piano1
+    ItemView: {fileID: -1454440540349175445, guid: 6526782c831340a49a2074620f2315d7, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: e62db7c6b66da114e9b08854f8db136a, type: 3}
+  - Id: Pig
+    ItemView: {fileID: -1454440540349175445, guid: 7b2a5563e1a04af4b80073122a4d8691, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 3f7e6ac12e5136f4c88f18b19fccab5f, type: 3}
+  - Id: Pillow
+    ItemView: {fileID: -1454440540349175445, guid: 3369285818c32ae45af37cd2ff7f8d9e, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 44365f47feac6e44d9b97f1398a2c9eb, type: 3}
+  - Id: Pizza
+    ItemView: {fileID: -1454440540349175445, guid: 373670ee6a62942469ed807257643f17, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 97efa2f43850f704a93c72df75aee29e, type: 3}
+  - Id: PotionBlue
+    ItemView: {fileID: -1454440540349175445, guid: b40216c14c83fd04d81e692b831aaa53, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 841efb0d29578274c9780baf368cf082, type: 3}
+  - Id: Pumpkin
+    ItemView: {fileID: -1454440540349175445, guid: f632dad8ef95d6a43af4e07148ced8aa, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 12a799a842795a243b290af8cdd13a68, type: 3}
+  - Id: Queen
+    ItemView: {fileID: -1454440540349175445, guid: a1ae3fdb58d06854db9431ffca4d72d2, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: e87db1f74275e7a4096c5a383338925e, type: 3}
+  - Id: QuestionMark
+    ItemView: {fileID: -1454440540349175445, guid: 6a90331fe70fd5a4a9dacd6e6e7f18eb, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: a5634ccb0b323b34f857ff8501cd8776, type: 3}
+  - Id: Radio
+    ItemView: {fileID: -1454440540349175445, guid: 01f4066750323b74895a1d8f024121c3, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: d4a3d2335a14daa448a86718a9f76352, type: 3}
+  - Id: Rainbow
+    ItemView: {fileID: -1454440540349175445, guid: f13b1998923e6c746b52c3c8517aa2cb, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 8ae45875ea43d2c438de350bd6b8de8d, type: 3}
+  - Id: Ring
+    ItemView: {fileID: -1454440540349175445, guid: 17f3c92bd7f02a0489fae6de6276d5b3, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 8d42afa2c7fd04548a286a73a95c6c0d, type: 3}
+  - Id: Robot
+    ItemView: {fileID: -1454440540349175445, guid: 85ebea7e77ce0ca41906c3337a5fd2e3, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: cd35dd032e8a7574a85049a5f61f0678, type: 3}
+  - Id: Rose
+    ItemView: {fileID: -1454440540349175445, guid: 02c23c477b5ea4045951b2d5631e43b2, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 63caaf1904eed9b45bc7bcfce52dcf48, type: 3}
+  - Id: Sandwich
+    ItemView: {fileID: -1454440540349175445, guid: c7c0dbb30e99c2b47b72ddae124313d2, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: a2c1963398d905a4c8e3b1da6c69d294, type: 3}
+  - Id: SawBlade
+    ItemView: {fileID: -1454440540349175445, guid: 5b54b7ef69976b349b72d0ce4d06c902, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: f7371c23a20d024468b7a6f631d36dba, type: 3}
+  - Id: Shark
+    ItemView: {fileID: -1454440540349175445, guid: 00415dc98fb748e45999ad684a110eb1, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 33b90cfbe5c68e54a867a033390f1be3, type: 3}
+  - Id: Sheep2
+    ItemView: {fileID: -1454440540349175445, guid: 1a27312ebe150e14bbd6a691563198cf, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 194b4be9056520841b0ea2793d9c01ae, type: 3}
+  - Id: Ship
+    ItemView: {fileID: -1454440540349175445, guid: 7e92fe4882b63a84dace3dbb7fd728b6, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 2fc88e22b8351ac4a8f72b27c41b98b1, type: 3}
+  - Id: SingleBarNote
+    ItemView: {fileID: -1454440540349175445, guid: 423f1b0709f5a384ab4f8e3806e3204f, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: f1f0f6991552d454089fd140cd4c06ce, type: 3}
+  - Id: Smartphones
+    ItemView: {fileID: -1454440540349175445, guid: 00819caa1194b6049a057c6066967d54, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 9959525b87e3cca4fb275ee9ab73d26b, type: 3}
+  - Id: SpikyToy8
+    ItemView: {fileID: -1454440540349175445, guid: 5837e59e3a6c0de44a8ea043d2e992d3, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 2aaced168dc7d5d47b4504324ebaa246, type: 3}
+  - Id: Star
+    ItemView: {fileID: -1454440540349175445, guid: 677a7eed7692e4c46bc640cebc4baae5, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 434b213ae30b97240970b2c856ab1a46, type: 3}
+  - Id: Taco
+    ItemView: {fileID: -1454440540349175445, guid: 21495dc14d92e204a91baa3f592c80aa, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: a71faaba608ec7e40950e543e568fa3d, type: 3}
+  - Id: TextC
+    ItemView: {fileID: -1454440540349175445, guid: 21b60db2d8d5c524a91245f1b75bea3f, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: eb7aef564cc2f5b4c9a7bdbea61059d9, type: 3}
+  - Id: TextE
+    ItemView: {fileID: -1454440540349175445, guid: 5c85da54beef0784498fa29bb3f9364a, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: f200225f4d46c0b4a8b18647d6a47af2, type: 3}
+  - Id: TextJ
+    ItemView: {fileID: -1454440540349175445, guid: 1057ff35d9c1fad4c8ee5cfe68b270c4, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 32967bd11376c6a40a17ce0484ee63f3, type: 3}
+  - Id: TextL
+    ItemView: {fileID: -1454440540349175445, guid: ad691efc7ad062444bf149cede8a66c9, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 717ff107bc31aba49b2f94c0b22aa312, type: 3}
+  - Id: TextQ
+    ItemView: {fileID: -1454440540349175445, guid: ba609b233e111a64882650795ea3cf1d, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: fa231b8a8235d024989d017abf0f06ad, type: 3}
+  - Id: TextT
+    ItemView: {fileID: -1454440540349175445, guid: 1cd1b5f0466767f42aaed8177b361ad4, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 307cba6b23f18494a8c25f9c51088e4d, type: 3}
+  - Id: TextX
+    ItemView: {fileID: -1454440540349175445, guid: ef7829b50fb200345902eb14f557e14a, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 10edd1a67d7e8fd4bbc3d6d2997320c3, type: 3}
+  - Id: Tiger
+    ItemView: {fileID: -1454440540349175445, guid: 4e21bae037cc62c4ebbd51542014c81e, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: dc85421783c23574f94fdf980eef7f8c, type: 3}
+  - Id: Tomato
+    ItemView: {fileID: -1454440540349175445, guid: f83c50d34f1c1ae47b09247bfc720312, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: ec5d8ea57a17dd74390e1c2e5d249264, type: 3}
+  - Id: Tree
+    ItemView: {fileID: -1454440540349175445, guid: 24a3c3355b3ce414cb3ff5eaaa8fa941, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 42c5f29b52003c848852d483eb5c7024, type: 3}
+  - Id: Trumpet
+    ItemView: {fileID: -1454440540349175445, guid: f56a46be8775437488c45724a792dc2b, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 9c36abd03c316294880dc0c3f2bfd2da, type: 3}
+  - Id: Tube1
+    ItemView: {fileID: -1454440540349175445, guid: 083a6af0aad6e5547bf700fc0443f17f, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 7033e938fdf260f43afc8b2b324c51d1, type: 3}
+  - Id: Ufo
+    ItemView: {fileID: -1454440540349175445, guid: fccba027e2682574fb4fb54562c5d21c, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 376c9d6d1f7ae174d84bb8bed560ba7c, type: 3}
+  - Id: Violin
+    ItemView: {fileID: -1454440540349175445, guid: 67117a3bc1410e84a9d898edd78ec833, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 999da9e6b42f4ca49a99c4a6981bc782, type: 3}
+  - Id: Waffle
+    ItemView: {fileID: -1454440540349175445, guid: c52f347c8d9195041bd0c7a1681e0dfc, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 0d573d1261971804eb98cd492d448d9b, type: 3}
+  - Id: Watermelon
+    ItemView: {fileID: -1454440540349175445, guid: f446990be7f2ac94d9a39225db8f76cd, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 56a5253e5c029874ebddc917016efa8a, type: 3}
+  - Id: Whale
+    ItemView: {fileID: -1454440540349175445, guid: ff72e2d4d4384a1449affd7a049b1845, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 131b7b55cb0d7c843aec4c475b52cd1e, type: 3}
+  - Id: Yam
+    ItemView: {fileID: -1454440540349175445, guid: 69a2423789df6044f83a652ad2ad8c37, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 2f05995720156fd4b8539690a59ef06b, type: 3}
+  - Id: Yarn
+    ItemView: {fileID: -1454440540349175445, guid: 3e2df5bcd8219ea4aa92266d8e0d6231, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 1bc97fcb95a0d5e4b9d7b235f87564a0, type: 3}
+  - Id: Yogurt
+    ItemView: {fileID: 4447373674037914907, guid: 3ac9c53239204684fb431b865b5ceec5, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: eaaa71345909bdd4ebe4b29ef9485ccb, type: 3}
+  - Id: Egg
+    ItemView: {fileID: -1454440540349175445, guid: f0164ee5c30094149aff207b7f35aa99, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: a5e02637f739c8c48b9c0010a6ac5ef2, type: 3}
+  - Id: ChickenLeg
+    ItemView: {fileID: -1454440540349175445, guid: 5b7702fc19f02a24ebd6be8fb04caee0, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 871368169f4c01b4995392a7c956c064, type: 3}
+  - Id: Candy11
+    ItemView: {fileID: -1454440540349175445, guid: 62715e3595ee71d4aa6f04da9fbd28b2, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 01dde52fed6e6cf40a022ea41b3f1ecb, type: 3}
+  - Id: Fork
+    ItemView: {fileID: -1454440540349175445, guid: e05cc48734acb8245993c21a07a02662, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 93d26622822af7c49ae4da2079520a00, type: 3}
+  - Id: Spoon
+    ItemView: {fileID: -1454440540349175445, guid: 2f6611ec9fe76ca42ad3449ad09c1824, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 4afefea5ed8b9374394ea8da91f37fea, type: 3}
+  - Id: DinosaurEgg1
+    ItemView: {fileID: -1454440540349175445, guid: d16942c4963487848be9619eb97fe0f5, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 3b3a5e661141f2640a3b6c707a6de9da, type: 3}
+  - Id: Butterfly3
+    ItemView: {fileID: -1454440540349175445, guid: 64223ff14be383645b3dfafa973b683e, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 75ef7a5e55d8e0c45aadfe597d07186b, type: 3}
+  - Id: Can3
+    ItemView: {fileID: -1454440540349175445, guid: 5eef7ea21d61b1247b5dd7f63a5207c6, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 1e0fb86fbc5da5b45bf59d9740d5a78f, type: 3}
+  - Id: Number9
+    ItemView: {fileID: -1454440540349175445, guid: d0e045e6821b5af48858abcd5ba086b3, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 1b687564dca282f4a908c4f6f8e38a5a, type: 3}
+  - Id: Candy1
+    ItemView: {fileID: -1454440540349175445, guid: 43f2dd7e138598e48a149f1b9648d64c, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 88b4bf03a8da85846a440b88bf636d46, type: 3}
+  - Id: Monkey
+    ItemView: {fileID: -1454440540349175445, guid: b45f2b39bf49bc04f93d084974bfcd31, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: de0a43526ab5f4846a53e4f54409dbb2, type: 3}
+  - Id: Spider
+    ItemView: {fileID: -1454440540349175445, guid: ccc8954f3275c634aad7c2336c5bdfc0, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 054790941df8d99478977870b2562272, type: 3}
+  - Id: Zebra
+    ItemView: {fileID: -1454440540349175445, guid: 957716f4133738b48a1756f6b6454f2d, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 4ce04874dce94544bbab7ac21263beef, type: 3}
+  - Id: Car
+    ItemView: {fileID: -1454440540349175445, guid: 26ae9f14925a93b4187289c021a78fd7, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 0e08419a942960f4392a6af57163946c, type: 3}
+  - Id: Jar
+    ItemView: {fileID: -1454440540349175445, guid: 902064bf32cef75439e0cea9af8e2f01, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 6cdc7346c5639cf4283bb9a592a02524, type: 3}
+  - Id: Cloud
+    ItemView: {fileID: -1454440540349175445, guid: 7e18323285b2ce14c9ef01722511ca65, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 8cd2d960544054d4a9f6c5208adf9ab8, type: 3}
+  - Id: Octopus3
+    ItemView: {fileID: -1454440540349175445, guid: c3c179122e0201240819a912dbbcd413, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 1153acca43599d143a821727e9fc86cc, type: 3}
+  - Id: Number3
+    ItemView: {fileID: -1454440540349175445, guid: bfff7ef1f304bf4488266df13913e179, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: ab93f4f9164273e469b8b9687a3c2fc7, type: 3}
+  - Id: TextP
+    ItemView: {fileID: -1454440540349175445, guid: 0f8cafb0c95a6ba459e26380363073ab, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: f75b28d3edd278c42852490b50eaf9de, type: 3}
+  - Id: TextM
+    ItemView: {fileID: -1454440540349175445, guid: e01f8645b9258ad4783858fd1c4b2fa4, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 001b6c7e864ea4947877c03ef3f6f467, type: 3}
+  - Id: Backpack2
+    ItemView: {fileID: -1454440540349175445, guid: 26421c87d4a2b1b4f8677c87ad83f021, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 7c176c6792360404698559989f6b3d42, type: 3}
+  - Id: Window
+    ItemView: {fileID: -1454440540349175445, guid: 19d5a1f476ebc4b47a5cc0a6f107bfea, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 90c93c3fbc4fb2446954e27486e44684, type: 3}
+  - Id: Table
+    ItemView: {fileID: -1454440540349175445, guid: 9b2b530bbbd726a48bbeb10572c7e221, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: a0c8cb6a78a228b46a5251b04b583aa8, type: 3}
+  - Id: Hamburger
+    ItemView: {fileID: -1454440540349175445, guid: d4bd10f819512fb44a05a8d36b144037, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 1e81447d94e266443b6045b3aff9eb0e, type: 3}
+  - Id: TextW
+    ItemView: {fileID: -1454440540349175445, guid: 73a019fe870078243aeac9c8f97fbf04, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: ed66305876ca73d44871d9918cfa3d64, type: 3}
+  - Id: Onion
+    ItemView: {fileID: -1454440540349175445, guid: 2c2d4ba4d70ed3e41a9ac9251816504f, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: c7edd59fc1a201042bd3d74ff1c53e5a, type: 3}
+  - Id: Canon
+    ItemView: {fileID: -1454440540349175445, guid: 3d3f88b2216f69b40bd4bda94ab1ad74, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 201d7183684f09b4fb12a7b47b8d27c8, type: 3}
+  - Id: Pillow5
+    ItemView: {fileID: -1454440540349175445, guid: e75ded41bf6b03c47aa55804439c08f8, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 2e36c4b6a4b69f84db92eb8c7c38e485, type: 3}
+  - Id: Airplane7
+    ItemView: {fileID: -1454440540349175445, guid: 9e1de617fc068904f988b31902b8e368, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: c8a10a14ec77091478070c9f8dacec63, type: 3}
+  - Id: Binoculars4
+    ItemView: {fileID: -1454440540349175445, guid: 1b4f1cf1bff09cf41ad25d63395f3f03, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 77545558cf4db4641938629ea61257cc, type: 3}
+  - Id: Candy14
+    ItemView: {fileID: -1454440540349175445, guid: 5b3bca8b9187b7248a60d31b642df43a, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: ff3a45fd4d9944c44bc413004f2a8288, type: 3}
+  - Id: Candy13
+    ItemView: {fileID: -1454440540349175445, guid: d97a29c12eff0f14493809001959b504, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 150534244f6e58e4983d1bded20908ce, type: 3}
+  - Id: RubberDuck
+    ItemView: {fileID: -1454440540349175445, guid: 0b7df217aa761344697f2d113d5ad55c, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: a851e66d9b4b23e45ad541b589746a35, type: 3}
+  - Id: DinosaurHat1
+    ItemView: {fileID: -1454440540349175445, guid: 0ba63811b1c7f274e90c30dce2da4b4c, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: d4b1c3f14e52d5c4fbf611ec0b6083b2, type: 3}
+  - Id: CrocodileToy
+    ItemView: {fileID: -1454440540349175445, guid: 271ff129d3cc7e846b31a1798826d841, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 6194e39b5b2353b4992e5c4ed17a1e22, type: 3}
+  - Id: LobsterToy3
+    ItemView: {fileID: -1454440540349175445, guid: 05a962885aa92db44a0ab62429e9f804, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: c69f8cefb488fe143a3e42870ce63096, type: 3}
+  - Id: Can1
+    ItemView: {fileID: -1454440540349175445, guid: 6e2c9c3c805aafb4b81fe7bf63da7a02, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 35a182de6c73ece49bad46e4dc060b6f, type: 3}
+  - Id: Fish1
+    ItemView: {fileID: -1454440540349175445, guid: 061894f5aaf2ef141a21382054690322, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: fa9b39b9cda4b3d4a9c96d2e6c704a68, type: 3}
+  - Id: Octopus
+    ItemView: {fileID: -1454440540349175445, guid: eb1b3482d17998541b1bdf4720be53f0, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 5ed3477c6fd88b44abda40387cf8c252, type: 3}
+  - Id: Tape1
+    ItemView: {fileID: -1454440540349175445, guid: b9b83ad12bdd0d04cb86262e344caa04, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 7e8f8edfc79ac134cbee8bfdd19abdcb, type: 3}
+  - Id: Ball2
+    ItemView: {fileID: -1454440540349175445, guid: 1cfbb480a1808d04e8b7e6e8eed7755a, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 987614412d9a83d46b7c8724f83417e7, type: 3}
+  - Id: TextB
+    ItemView: {fileID: -1454440540349175445, guid: 0e78220c24ada7240bb434aeb8aa4807, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: da67aaaa00187d8438b2925cfd9fdead, type: 3}
+  - Id: Bucket
+    ItemView: {fileID: -1454440540349175445, guid: 2eac45396db5a7a4e9116c1db6544d79, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 2cff7781aa288fb46836f8d2656bc7de, type: 3}
+  - Id: ToyTrumpet
+    ItemView: {fileID: -1454440540349175445, guid: 263fd180b46c79646ab8464e8aae5998, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 2cb91afe41bf1184a91ebad24a5d9b08, type: 3}
+  - Id: Xylophone
+    ItemView: {fileID: -1454440540349175445, guid: 8f3fcfd4cdbf7274485558b5e0fa02fe, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: f8c8f1e256ee81a4da0bf6f479c96636, type: 3}
+  - Id: can
+    ItemView: {fileID: -1454440540349175445, guid: fea6700151470e34da55047aeb22e305, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 57342846875d1c246b4cf5fe48922fc8, type: 3}
+  - Id: Cup2
+    ItemView: {fileID: -1454440540349175445, guid: f105cc8d51ac721408eef662d6d7a04d, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 82b221f28b0019248bab6ae0b41cdc30, type: 3}
+  - Id: CylinderHat1
+    ItemView: {fileID: -1454440540349175445, guid: e86055807d793d8479b299470218b22d, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 4443747696978ee45bdb934e20732665, type: 3}
+  - Id: BunnyEars1
+    ItemView: {fileID: -1454440540349175445, guid: 4acc04cdb21f62045b59e4126cdf77ff, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 57fd5a7e06930ea459c7ccfaf15963a0, type: 3}
+  - Id: FrozenYogurt
+    ItemView: {fileID: 4447373674037914907, guid: a6abfe111bc69684e9e6c3d59fbb6c44, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 957f6f8ce7e95e049ad64e3c0258320c, type: 3}
+  - Id: Driver2
+    ItemView: {fileID: -1454440540349175445, guid: c079665f96d169744a6ba73c672ebee3, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 5eccb7ab9b18f8c4ebb3564b29a0112c, type: 3}
+  - Id: TrafficCone
+    ItemView: {fileID: -1454440540349175445, guid: cb0bbff233211084c8ac44fd166355d2, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: fc7288bce9619514aa43a9c4ab4e034b, type: 3}
+  - Id: WoodBarrel
+    ItemView: {fileID: -1454440540349175445, guid: b68ba507393a60744adc64d790af28fd, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: dc188d05bfa4bd740937e05a46a42683, type: 3}
+  - Id: FrenchFries
+    ItemView: {fileID: -1454440540349175445, guid: 6509574a0c5bfce4e900652948954471, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 615e36c1e4fdde04a890b8f9a064f43a, type: 3}
+  - Id: Driver
+    ItemView: {fileID: -1454440540349175445, guid: b7a80cfa101a8f947a5f91a5be4356e4, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 8c3b533f98e1d5443993ae94c243019f, type: 3}
+  - Id: Airplane3
+    ItemView: {fileID: -1454440540349175445, guid: d178140972940594d8dc4f8d26596a7c, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 09ff51d7e02b0894494d996a24e85df6, type: 3}
+  - Id: MagnifyingGlass
+    ItemView: {fileID: -1454440540349175445, guid: faeed7ccc7e2ad74390192e84c881366, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 1c2ce53936d6c6f4e8c61766b952a67f, type: 3}
+  - Id: Bubble
+    ItemView: {fileID: -1454440540349175445, guid: 018fca53082fefc439aadc7efc9725fb, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: f821f4a515ce16946be3dadc7b50e78d, type: 3}
+  - Id: Number1
+    ItemView: {fileID: -1454440540349175445, guid: 1305b56eb7354f746a3c4313d6fe0fbf, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 64c75d51a39bba4469c04e2ea2f998a9, type: 3}
+  - Id: Number5
+    ItemView: {fileID: -1454440540349175445, guid: 1d81271254764e64cb82b05aba0289d8, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: f19f63a29377dcf4ab6e5b9bc4dda8a1, type: 3}
+  - Id: Number6
+    ItemView: {fileID: -1454440540349175445, guid: 7f257ad64120f684280d241694600c34, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: a244f67330cb0c44999d4f2dc55a7ae8, type: 3}
+  - Id: TextA
+    ItemView: {fileID: -1454440540349175445, guid: 60846a0297fe1264aafa6c6368de7501, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: beef2aaf832970d47b1c7cdf7bd0a9c6, type: 3}
+  - Id: TextR
+    ItemView: {fileID: -1454440540349175445, guid: 35bc58f089445d443b5cffedf1b20fa4, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: bf2871bad117c2c41b4a63cfd7c32bde, type: 3}
+  - Id: TextU
+    ItemView: {fileID: -1454440540349175445, guid: b092d180791f46a4086042613dc8874b, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: c24647b44345ae243bf2287d9e3e4f47, type: 3}
+  - Id: TextN
+    ItemView: {fileID: -1454440540349175445, guid: 62f276d8d8db6544dbc73975628c565e, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 18e6b1313db628e439c679c73fff62fe, type: 3}
+  - Id: CupCake
+    ItemView: {fileID: -1454440540349175445, guid: 63dff8d3d4a165e4c83cb9245659ee85, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: e70b5435375838443bb5d119f97a8650, type: 3}
+  - Id: Cup1
+    ItemView: {fileID: -1454440540349175445, guid: df8802e95e524574c89eed02c4352631, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 5cfd39a55a64e6f4b82717b59f8ef2a9, type: 3}
+  - Id: Butterfly
+    ItemView: {fileID: -1454440540349175445, guid: 337fa6504c2510e45a7aa4f677599ddb, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: c2eafee33acc39c45b034e7df929c808, type: 3}
+  - Id: Butterfly2
+    ItemView: {fileID: -1454440540349175445, guid: 0085c2e86b3be5e4bb052e8370a79df4, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: e6ca664a9b5a51d43b9d1cbeb8d8917a, type: 3}
+  - Id: Ball1
+    ItemView: {fileID: -1454440540349175445, guid: 2290ffe368ee1d845885fac77ffa34ad, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: dca098405a3cbcd498625f8c176a50be, type: 3}
+  - Id: DinosaurEgg2
+    ItemView: {fileID: -1454440540349175445, guid: ee9ab65e26c27f34aa7ca6a2471f9926, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 97b4f824a6e06524eaaed968eb27d98f, type: 3}
+  - Id: BarrelMetal1
+    ItemView: {fileID: -1454440540349175445, guid: 8b12a32c006db2845932f7a7e26444d6, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: f64cf08c37f95d04898f6d698c204f92, type: 3}
+  - Id: Butterfly1
+    ItemView: {fileID: -1454440540349175445, guid: ee559113efd32624fae0d3eaa4cdb6a1, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: fe642838f58c77e48bf68734e50ca479, type: 3}
+  - Id: Bicycle
+    ItemView: {fileID: -1454440540349175445, guid: 4e63d1a2752d1cc49a9d66a087b91228, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 6ed3f4ea1e8753744b8e582fec61cdf1, type: 3}
+  - Id: AstronautHelmet1
+    ItemView: {fileID: -1454440540349175445, guid: 1179134cc9df0d34d8bb07ea20977117, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 9f9ae901845f4ee41aa527141dd0c649, type: 3}
+  - Id: Rocket
+    ItemView: {fileID: -1454440540349175445, guid: 65d2eedf016ea2549b3350f83d2e0544, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 0b3d34503fb52ad4292fc98446897c70, type: 3}
+  - Id: Rocket1
+    ItemView: {fileID: -1454440540349175445, guid: 2b01084ba310c0c4fb3dccb7aac7d5cc, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 313706fc0224fee41ba413cc9630e95a, type: 3}
+  - Id: Earth
+    ItemView: {fileID: -1454440540349175445, guid: 207e195b4778ec046aaa45301758c298, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 4a92f026b1ca58448bd9516230d3d296, type: 3}
+  - Id: Quail
+    ItemView: {fileID: -1454440540349175445, guid: 6e11daf9c230b5f4c8bc9d530524d8d0, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 3b7c69d7d6f9da548a6c9b8d60ce1450, type: 3}
+  - Id: TextO
+    ItemView: {fileID: -1454440540349175445, guid: d8e6588be6295fc4c88f7f2b8ee3a530, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 642f4be28c0ee9b458c95c4dbe2fe401, type: 3}
+  - Id: TextV
+    ItemView: {fileID: -1454440540349175445, guid: 936d47c97f659cc419623088a8d8339f, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 6111075a2f9ac3549a80f3687b771efd, type: 3}
+  - Id: PotionRed
+    ItemView: {fileID: -1454440540349175445, guid: 682764d26d3297140a4ea849b8f05de2, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 30d620d5f7262654b848482cc2dc489d, type: 3}
+  - Id: TextG
+    ItemView: {fileID: -1454440540349175445, guid: 62d8a8cee53d3ff4ea9c5a1cd8449778, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 1cd774d79db50b5488ecb1e1f6c66eb7, type: 3}
+  - Id: TextY
+    ItemView: {fileID: -1454440540349175445, guid: e1282619961dc4341823ee8e8a91a941, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 32cc8f919ac91d24d8dc757952e12cbb, type: 3}
+  - Id: Monkey
+    ItemView: {fileID: -1454440540349175445, guid: b45f2b39bf49bc04f93d084974bfcd31, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: de0a43526ab5f4846a53e4f54409dbb2, type: 3}
+  - Id: can
+    ItemView: {fileID: -1454440540349175445, guid: fea6700151470e34da55047aeb22e305, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 57342846875d1c246b4cf5fe48922fc8, type: 3}
+  - Id: AstronautHelmet1
+    ItemView: {fileID: -1454440540349175445, guid: 1179134cc9df0d34d8bb07ea20977117, type: 3}
+    ItemGoalSprite: {fileID: 21300000, guid: 9f9ae901845f4ee41aa527141dd0c649, type: 3}

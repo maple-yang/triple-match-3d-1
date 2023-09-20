@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f3482268b84967953a3b0c6eb11564, type: 3}
+  m_Name: UIPanels
+  m_EditorClassIdentifier: 
+  panelReferences:
+  - m_AssetGUID: 8b008e4014d8646d5998805dc906b493
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: c454f8de250074e2e912f4f037c018ce
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 0788d2e710ba4482c9a646634d3b0e45
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: a3cbfec8ceb9f4341a1d4d9b643d1345
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: c14644ad3cec343a89086a6a91a113cb
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 8fb6b3e58e9cd24409ef1423a6c55748
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  panelGameObjects:
+  - {fileID: 466849895470441240, guid: 8b008e4014d8646d5998805dc906b493, type: 3}
+  - {fileID: 2385225356171138248, guid: c454f8de250074e2e912f4f037c018ce, type: 3}
+  - {fileID: 6610302629058720254, guid: 0788d2e710ba4482c9a646634d3b0e45, type: 3}
+  - {fileID: 4428265662755763941, guid: a3cbfec8ceb9f4341a1d4d9b643d1345, type: 3}
+  - {fileID: 8614692383484564177, guid: c14644ad3cec343a89086a6a91a113cb, type: 3}
+  - {fileID: 4922653755687706529, guid: 8fb6b3e58e9cd24409ef1423a6c55748, type: 3}
+  panelsInfo:
+  - PanelGuid: 8b008e4014d8646d5998805dc906b493
+    PanelName: Game.UI.Panels.CustomDebugPanel
+  - PanelGuid: c454f8de250074e2e912f4f037c018ce
+    PanelName: Game.UI.Loading.GameLoadingPanel
+  - PanelGuid: 0788d2e710ba4482c9a646634d3b0e45
+    PanelName: Game.UI.Panels.MenuPanel
+  - PanelGuid: a3cbfec8ceb9f4341a1d4d9b643d1345
+    PanelName: Game.UI.Panels.PausePanel
+  - PanelGuid: c14644ad3cec343a89086a6a91a113cb
+    PanelName: Game.UI.Panels.ResultPanel
+  - PanelGuid: 8fb6b3e58e9cd24409ef1423a6c55748
+    PanelName: Game.UI.Panels.LevelPanel

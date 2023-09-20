@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f3a0653c3b4f02946804b6438cd69c, type: 3}
+  m_Name: AudioParameters
+  m_EditorClassIdentifier: 
+  <AudioSourceComponentReference>k__BackingField: {fileID: 7819719816101148591, guid: 9ba9ade1fa9048e4aac59406572498b9, type: 3}
+  <MusicParameters>k__BackingField:
+  - AudioName: main music
+    AudioClip: {fileID: 8300000, guid: 26599102fb95f14438d8d561776b7723, type: 3}
+    Volume: 1
+  <SoundParameters>k__BackingField:
+  - AudioName: take item sound
+    AudioClip: {fileID: 8300000, guid: 49dc2431ebc8f954591f2010af416a31, type: 3}
+    Volume: 1
+  - AudioName: merge item sound
+    AudioClip: {fileID: 8300000, guid: 3a36e69ebbb678441ab75d697ee3ed61, type: 3}
+    Volume: 1
+  - AudioName: booster magnet
+    AudioClip: {fileID: 8300000, guid: 1b371746bb8a3bd41997fad865f82bd8, type: 3}
+    Volume: 1
+  - AudioName: booster cancel
+    AudioClip: {fileID: 8300000, guid: b0463ca0514b9544f820dcb67903067c, type: 3}
+    Volume: 1
+  - AudioName: booster shuffle
+    AudioClip: {fileID: 8300000, guid: 90ac02d0319e7fd4ab83bf570e49c5ab, type: 3}
+    Volume: 1
+  - AudioName: booster freeze start
+    AudioClip: {fileID: 8300000, guid: 57b2a278409f6684dad3d1baef8dd068, type: 3}
+    Volume: 1
+  - AudioName: booster freeze end
+    AudioClip: {fileID: 8300000, guid: 457b03474cf13074289a4d5a3dd2a902, type: 3}
+    Volume: 1
+  - AudioName: click sound
+    AudioClip: {fileID: 8300000, guid: dd2fbdacd0ceda841a153f47886ce0b9, type: 3}
+    Volume: 1
+  - AudioName: adding stars in menu sound
+    AudioClip: {fileID: 8300000, guid: 4edc01e817f3697459072be40b5527dc, type: 3}
+    Volume: 1
+  - AudioName: level completed sound
+    AudioClip: {fileID: 8300000, guid: e6be2e27f422934448a67532190a8450, type: 3}
+    Volume: 1
+  - AudioName: level lose sound
+    AudioClip: {fileID: 8300000, guid: 15e3f2a3e64ff51448d848607ca7498a, type: 3}
+    Volume: 0.5
+  - AudioName: flight of stars to stars
+    AudioClip: {fileID: 8300000, guid: 9890b991f3d9720408557d54bca42ecc, type: 3}
+    Volume: 0.5
+  - AudioName: extra time
+    AudioClip: {fileID: 8300000, guid: d1c2306352111534db05e989233d33dc, type: 3}
+    Volume: 1
+  - AudioName: swipe up curve map
+    AudioClip: {fileID: 8300000, guid: fbceb136b7bd9934f94654d7d8919e2b, type: 3}
+    Volume: 1
+  - AudioName: swipe down curve map
+    AudioClip: {fileID: 8300000, guid: 8f6b2f235faea8b4395678669ce3f06d, type: 3}
+    Volume: 1
+  - AudioName: open new map
+    AudioClip: {fileID: 8300000, guid: b4055cb3f86c5494f85ee48697d70393, type: 3}
+    Volume: 1

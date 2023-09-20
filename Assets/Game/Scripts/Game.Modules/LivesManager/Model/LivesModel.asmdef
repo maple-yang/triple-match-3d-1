@@ -1,0 +1,18 @@
+{
+    "name": "LivesModel",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c47d3617ae62783428f4f3247b5f65fc",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285",
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

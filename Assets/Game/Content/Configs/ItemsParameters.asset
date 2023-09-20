@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be5d3e15d7f948449dd8f8afc83c4def, type: 3}
+  m_Name: ItemsParameters
+  m_EditorClassIdentifier: 
+  <ItemsInSlotSize>k__BackingField: 0.5
+  <MergeScale>k__BackingField: 0.8
+  <MergeScaleDuration>k__BackingField: 0.25
+  <MergeScaleEase>k__BackingField: 1
+  <MergeParticleSystem>k__BackingField: {fileID: 198521475460623290, guid: 1915e32161a6d324d8e1cb4852d044a0, type: 3}
+  <MoveToInventoryDuration>k__BackingField: 0.2
+  <MoveToInventoryEase>k__BackingField: 1
+  <MergeDuration>k__BackingField: 0.25
+  <MergeEase>k__BackingField: 1
+  <MoveInInventoryDuration>k__BackingField: 0.2
+  <MoveInInventoryEase>k__BackingField: 1
+  IdleAnimationAmplitude: 0.15
+  IdleAnimationDuration: 2
+  IdleAnimationEase: 1
+  <OutlineSize>k__BackingField: 4
+  <OutlineColor>k__BackingField: {r: 1, g: 0.9098039, b: 0.047058824, a: 1}

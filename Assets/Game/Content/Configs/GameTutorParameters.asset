@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9d95eecf0914057b691ecd793463b39, type: 3}
+  m_Name: GameTutorParameters
+  m_EditorClassIdentifier: 
+  <TutorDatas>k__BackingField:
+  - TutorViewReference: {fileID: 8128208670029000253, guid: 200cb7b64f1074b949d71a804af73195, type: 3}
+    TutorLogic:
+      rid: 2155892235177033733
+  - TutorViewReference: {fileID: 8128208670029000253, guid: e7612734d1acf4796a5d5627ce7341bb, type: 3}
+    TutorLogic:
+      rid: 5295198062440873985
+  - TutorViewReference: {fileID: 8128208670029000253, guid: 6e660e5765ea74183a95df515aed5ee1, type: 3}
+    TutorLogic:
+      rid: 2155892235177033735
+  - TutorViewReference: {fileID: 8128208670029000253, guid: 70d3301d0440445e7b173af0243e3e53, type: 3}
+    TutorLogic:
+      rid: 2155892235177033736
+  - TutorViewReference: {fileID: 9162374153439944479, guid: 135bf12f080854d73a6d21480e8637da, type: 3}
+    TutorLogic:
+      rid: 5295198062440873986
+  references:
+    version: 2
+    RefIds:
+    - rid: 2155892235177033733
+      type: {class: BoosterTutorLogic, ns: Game.Tutor.Logics, asm: Game}
+      data:
+        IsIgnoreAvailabilityTutor: 0
+        boosterType: 0
+        messagePositionOffset: {x: 150, y: 360}
+    - rid: 2155892235177033735
+      type: {class: BoosterTutorLogic, ns: Game.Tutor.Logics, asm: Game}
+      data:
+        IsIgnoreAvailabilityTutor: 0
+        boosterType: 2
+        messagePositionOffset: {x: 0, y: 360}
+    - rid: 2155892235177033736
+      type: {class: BoosterTutorLogic, ns: Game.Tutor.Logics, asm: Game}
+      data:
+        IsIgnoreAvailabilityTutor: 0
+        boosterType: 3
+        messagePositionOffset: {x: -100, y: 360}
+    - rid: 5295198062440873985
+      type: {class: CancelBoosterTutorLogic, ns: Game.Tutor.Logics, asm: Game}
+      data:
+        IsIgnoreAvailabilityTutor: 0
+        boosterType: 1
+        messagePositionOffset: {x: 0, y: 360}
+    - rid: 5295198062440873986
+      type: {class: FirstLevelTutorLogic, ns: Game.Tutor.Logics, asm: Game}
+      data:
+        IsIgnoreAvailabilityTutor: 0
+        TimeShowingSecondMessage: 3
+        messageDatas:
+        - OffsetPosition: {x: 0, y: -10}
+        - OffsetPosition: {x: 100, y: -220}

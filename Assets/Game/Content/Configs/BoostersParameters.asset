@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89baf4a11f0347bf9e6ae7a303466ccc, type: 3}
+  m_Name: BoostersParameters
+  m_EditorClassIdentifier: 
+  <JumpDuration>k__BackingField: 1
+  <JumpHeight>k__BackingField: 2
+  <JumpEase>k__BackingField: 1
+  <ShuffleForceMin>k__BackingField: 7
+  <ShuffleForceMax>k__BackingField: 10
+  <ShuffleAngularForceMin>k__BackingField: -50
+  <ShuffleAngularForceMax>k__BackingField: 50
+  <ShuffleCooldown>k__BackingField: 3
+  <FreezingDuration>k__BackingField: 10
+  <AddBoosterForAds>k__BackingField: 2
+  <BoosterGameSettings>k__BackingField:
+  - Type: 0
+    DefaultCount: 3
+    OpenOnLevel: 3
+  - Type: 1
+    DefaultCount: 3
+    OpenOnLevel: 5
+  - Type: 2
+    DefaultCount: 3
+    OpenOnLevel: 7
+  - Type: 3
+    DefaultCount: 3
+    OpenOnLevel: 9

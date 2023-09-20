@@ -1,0 +1,3355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99822b8df74c4b43a3f78df809bd35bf, type: 3}
+  m_Name: LevelsConfig
+  m_EditorClassIdentifier: 
+  levelsData:
+  - <IsRepeat>k__BackingField: 0
+    <LevelID>k__BackingField: Level_1
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 761271dfe40244159a293d20220fc198
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 10
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 6dbbadf787f6ab14384daed90df0fbff, type: 3}
+        <ItemID>k__BackingField: Grape
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: 44dd4b4f601008e4196d98a261787c31, type: 3}
+        <ItemID>k__BackingField: Banana
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: 090802ce933af7646b3d43bfaf37b7b6, type: 3}
+        <ItemID>k__BackingField: Apple
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 0
+    <LevelID>k__BackingField: Level_2
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 761271dfe40244159a293d20220fc198
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 5
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: b61f5d86ff5f95344a07a7d400053bf8, type: 3}
+        <ItemID>k__BackingField: Bunny1
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: ef9dbcc953e350a4d95bbb169758b1cf, type: 3}
+        <ItemID>k__BackingField: Bunny
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 08f447a8dc76e62468cf606eb3c92cf7, type: 3}
+        <ItemID>k__BackingField: Carrot
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 18
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_3
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 761271dfe40244159a293d20220fc198
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 4
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: b8e672b08adf5d441824728b9aac3b32, type: 3}
+        <ItemID>k__BackingField: Cactus_1
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 0d01bad378f2ee940934beb0b08f549e, type: 3}
+        <ItemID>k__BackingField: Frog
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: ceb6e30610b59bb4b87a4553d0554fd0, type: 3}
+        <ItemID>k__BackingField: Kiwi
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 090802ce933af7646b3d43bfaf37b7b6, type: 3}
+        <ItemID>k__BackingField: Apple
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 44dd4b4f601008e4196d98a261787c31, type: 3}
+        <ItemID>k__BackingField: Banana
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 6dbbadf787f6ab14384daed90df0fbff, type: 3}
+        <ItemID>k__BackingField: Grape
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_4
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 4
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: fbbdae6968b0e064caaae29ff2ff9b1c, type: 3}
+        <ItemID>k__BackingField: Cheese
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: dd9f00b355c13c642ae7232a4a28ee47, type: 3}
+        <ItemID>k__BackingField: Bread
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: a2c1963398d905a4c8e3b1da6c69d294, type: 3}
+        <ItemID>k__BackingField: Sandwich
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 18
+      - Icon: {fileID: 21300000, guid: 871368169f4c01b4995392a7c956c064, type: 3}
+        <ItemID>k__BackingField: ChickenLeg
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 19a9d5930f106f54db6133d32baca8c4, type: 3}
+        <ItemID>k__BackingField: FriedEgg
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: dd9daedbd03a00c4db934d8e60fea57f, type: 3}
+        <ItemID>k__BackingField: FrenchBread
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: ec5d8ea57a17dd74390e1c2e5d249264, type: 3}
+        <ItemID>k__BackingField: Tomato
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_5
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 4
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 039d580d298250b4b9281f9f0f6330fd, type: 3}
+        <ItemID>k__BackingField: Ball
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 12
+      - Icon: {fileID: 21300000, guid: 221353bebf2509543b84deeeb5118762, type: 3}
+        <ItemID>k__BackingField: Orange
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 01e7977a229cf5d43963f9c5a4cd9e31, type: 3}
+        <ItemID>k__BackingField: Giraffe
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 56a5253e5c029874ebddc917016efa8a, type: 3}
+        <ItemID>k__BackingField: Watermelon
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 12a799a842795a243b290af8cdd13a68, type: 3}
+        <ItemID>k__BackingField: Pumpkin
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 19bebdeadf9e736449c07331a84fd85b, type: 3}
+        <ItemID>k__BackingField: Duck
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: f38e9dbffc5ec5341a6ff572be7caf78, type: 3}
+        <ItemID>k__BackingField: Globe
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 8f87dff403dfaf34b8f756ed3568f1b2, type: 3}
+        <ItemID>k__BackingField: Drum
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_6
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 30
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 3ab186b971f7037429d189e23d4fafa9, type: 3}
+        <ItemID>k__BackingField: Bee
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 8982f57505f6ab14e8b712bddff47b57, type: 3}
+        <ItemID>k__BackingField: HoneyJar
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 18
+      - Icon: {fileID: 21300000, guid: b8e672b08adf5d441824728b9aac3b32, type: 3}
+        <ItemID>k__BackingField: Cactus_1
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: e445b087a7b088f4eb0bf2335246cbd8, type: 3}
+        <ItemID>k__BackingField: Bee1
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_7
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 5
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 61be17f0b147c7242bbf6ec33d4e5127, type: 3}
+        <ItemID>k__BackingField: Macaron
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: f1d688b558a66af419a3e645ef8efeda, type: 3}
+        <ItemID>k__BackingField: Donut
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 25a8412167e1aac4488370bddc49767d, type: 3}
+        <ItemID>k__BackingField: Croissant
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: a8f6c81a588bcab43bbbb66300d76cb8, type: 3}
+        <ItemID>k__BackingField: Muffin
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: e7fe56bac216de444a6bf4592458a412, type: 3}
+        <ItemID>k__BackingField: Cake
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 0480c9602925896448d630a8fc16f999, type: 3}
+        <ItemID>k__BackingField: ApplePieSlice
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: e6630edd1ad3f52418a39de7e9b33c7d, type: 3}
+        <ItemID>k__BackingField: CoffeeMug
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_8
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 4
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: fd16111cf5e593d42bf19550d8bf3203, type: 3}
+        <ItemID>k__BackingField: Dice
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: b0cf8261ebfb0ba49b3af18e98a392cb, type: 3}
+        <ItemID>k__BackingField: Apple3
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 225ab92a5f90c3e47b6dae089b9afe64, type: 3}
+        <ItemID>k__BackingField: Giftbox
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: cb4d327c52c7f57469bd9e26ee3c3253, type: 3}
+        <ItemID>k__BackingField: Garlic
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 434b213ae30b97240970b2c856ab1a46, type: 3}
+        <ItemID>k__BackingField: Star
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: d078cb32915a7064f9ac8d9d4d8b930e, type: 3}
+        <ItemID>k__BackingField: Number7
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 924555a39b208e148988a83d07ef7276, type: 3}
+        <ItemID>k__BackingField: Guitar
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: c56bc3371ad449b4fbb969b2319c5875, type: 3}
+        <ItemID>k__BackingField: Giftbox1
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: eea0e744febb8204a8349d5fb480fcb9, type: 3}
+        <ItemID>k__BackingField: Giftbox2
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 4c5d07a27385ea24297730a63b5cf020, type: 3}
+        <ItemID>k__BackingField: Giftbox4
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 6dbbadf787f6ab14384daed90df0fbff, type: 3}
+        <ItemID>k__BackingField: Grape
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_9
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 4
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: cd35dd032e8a7574a85049a5f61f0678, type: 3}
+        <ItemID>k__BackingField: Robot
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: d2c5d759e3ed5424f98d73040a79836a, type: 3}
+        <ItemID>k__BackingField: Diamond2
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 46115e20bdf30fd44b8b29ec07829bff, type: 3}
+        <ItemID>k__BackingField: Diamond3
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 34d75474e40f68f4e9a793fa1f5e77be, type: 3}
+        <ItemID>k__BackingField: Airplane4
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 6a6bfcaa4314b034abeb51db4ffee9bd, type: 3}
+        <ItemID>k__BackingField: Kettle
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: a5634ccb0b323b34f857ff8501cd8776, type: 3}
+        <ItemID>k__BackingField: QuestionMark
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 841efb0d29578274c9780baf368cf082, type: 3}
+        <ItemID>k__BackingField: PotionBlue
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 090802ce933af7646b3d43bfaf37b7b6, type: 3}
+        <ItemID>k__BackingField: Apple
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_10
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 4
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 6dbbadf787f6ab14384daed90df0fbff, type: 3}
+        <ItemID>k__BackingField: Grape
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 090802ce933af7646b3d43bfaf37b7b6, type: 3}
+        <ItemID>k__BackingField: Apple
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: cb4d327c52c7f57469bd9e26ee3c3253, type: 3}
+        <ItemID>k__BackingField: Garlic
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 56a5253e5c029874ebddc917016efa8a, type: 3}
+        <ItemID>k__BackingField: Watermelon
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 12a799a842795a243b290af8cdd13a68, type: 3}
+        <ItemID>k__BackingField: Pumpkin
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 44dd4b4f601008e4196d98a261787c31, type: 3}
+        <ItemID>k__BackingField: Banana
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 2ae71be42ac686c498bcd61950855ed1, type: 3}
+        <ItemID>k__BackingField: Lemon
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 503d13bb0f3bb33489e8362fac9154e2, type: 3}
+        <ItemID>k__BackingField: Basket
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 2f05995720156fd4b8539690a59ef06b, type: 3}
+        <ItemID>k__BackingField: Yam
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 08f447a8dc76e62468cf606eb3c92cf7, type: 3}
+        <ItemID>k__BackingField: Carrot
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 02a9508250be65a45b94ccffd68f67ca, type: 3}
+        <ItemID>k__BackingField: Cherry
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 89d2e9d39a8e2d34c8c1cdd50aec6677, type: 3}
+        <ItemID>k__BackingField: Pea
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 221353bebf2509543b84deeeb5118762, type: 3}
+        <ItemID>k__BackingField: Orange
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_11
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 4
+        seconds: 15
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 434b213ae30b97240970b2c856ab1a46, type: 3}
+        <ItemID>k__BackingField: Star
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: e6bf79e20d446be4da941f7146acd6e6, type: 3}
+        <ItemID>k__BackingField: Book
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 9c36abd03c316294880dc0c3f2bfd2da, type: 3}
+        <ItemID>k__BackingField: Trumpet
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 2e0afb11a448c99438fd7e4cd417bc58, type: 3}
+        <ItemID>k__BackingField: Piano
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 924555a39b208e148988a83d07ef7276, type: 3}
+        <ItemID>k__BackingField: Guitar
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: d4a3d2335a14daa448a86718a9f76352, type: 3}
+        <ItemID>k__BackingField: Radio
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 4d71a0ea733ba1b4f9a307ad80f82067, type: 3}
+        <ItemID>k__BackingField: Mike
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 89520090be5ff07478daec459a8ab813, type: 3}
+        <ItemID>k__BackingField: EighthNote
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 13792ae413d1f8d4f8594dc1bbc26100, type: 3}
+        <ItemID>k__BackingField: EighthNote4
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 38edce1b0d0733e4a856e5415b03476c, type: 3}
+        <ItemID>k__BackingField: PencilColored8
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: e62db7c6b66da114e9b08854f8db136a, type: 3}
+        <ItemID>k__BackingField: Piano1
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 307cba6b23f18494a8c25f9c51088e4d, type: 3}
+        <ItemID>k__BackingField: TextT
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_12
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 45
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 090802ce933af7646b3d43bfaf37b7b6, type: 3}
+        <ItemID>k__BackingField: Apple
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 0d0c49656e09fae4996d04fff8621caf, type: 3}
+        <ItemID>k__BackingField: Backpack
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 15c575cf5d3b84442b3125f1c4eeaca6, type: 3}
+        <ItemID>k__BackingField: Ink
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: b4415606f1243ae47818516d76c96ac7, type: 3}
+        <ItemID>k__BackingField: Bag
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: b135b267a912761429cc96970a9350c2, type: 3}
+        <ItemID>k__BackingField: Desk
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 7f66b56ff69cf4146b73d3b3fac11d67, type: 3}
+        <ItemID>k__BackingField: Pencil
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: cc0f790be3075694fa027686ce0a982a, type: 3}
+        <ItemID>k__BackingField: Binoculars1
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: c2bb5bd775e42824aab287f4d29a4a0e, type: 3}
+        <ItemID>k__BackingField: Chair
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: fa805a70ebd076d488914cb38a41de9e, type: 3}
+        <ItemID>k__BackingField: Note
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 54c32a037c768054d92068328036c96d, type: 3}
+        <ItemID>k__BackingField: Book4
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: cde1fe202507c9f4ab85e3e9f19f63db, type: 3}
+        <ItemID>k__BackingField: HighlighterPen2
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: f1dc4986a5f247c4eb1b3dd5b4c73320, type: 3}
+        <ItemID>k__BackingField: Pen
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: e6bf79e20d446be4da941f7146acd6e6, type: 3}
+        <ItemID>k__BackingField: Book
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_13
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 4
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 9c34438f6bff50f4296c47618543c53b, type: 3}
+        <ItemID>k__BackingField: Moon
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 12a799a842795a243b290af8cdd13a68, type: 3}
+        <ItemID>k__BackingField: Pumpkin
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: ec5d8ea57a17dd74390e1c2e5d249264, type: 3}
+        <ItemID>k__BackingField: Tomato
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 3f7e6ac12e5136f4c88f18b19fccab5f, type: 3}
+        <ItemID>k__BackingField: Pig
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 19bebdeadf9e736449c07331a84fd85b, type: 3}
+        <ItemID>k__BackingField: Duck
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 6a6bfcaa4314b034abeb51db4ffee9bd, type: 3}
+        <ItemID>k__BackingField: Kettle
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: c033633fc66156947b78469d2ff66df7, type: 3}
+        <ItemID>k__BackingField: Balloon
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 0d1acef4a2a0ba24d9b5b7af472b1edf, type: 3}
+        <ItemID>k__BackingField: Apple1
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: b0cf8261ebfb0ba49b3af18e98a392cb, type: 3}
+        <ItemID>k__BackingField: Apple3
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 4aa4df6f4958115439aee9e26ae4f5fc, type: 3}
+        <ItemID>k__BackingField: Meteor
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_14
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 2
+        seconds: 30
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 225ab92a5f90c3e47b6dae089b9afe64, type: 3}
+        <ItemID>k__BackingField: Giftbox
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 44365f47feac6e44d9b97f1398a2c9eb, type: 3}
+        <ItemID>k__BackingField: Pillow
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 12
+      - Icon: {fileID: 21300000, guid: 434b213ae30b97240970b2c856ab1a46, type: 3}
+        <ItemID>k__BackingField: Star
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 8ae45875ea43d2c438de350bd6b8de8d, type: 3}
+        <ItemID>k__BackingField: Rainbow
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 63caaf1904eed9b45bc7bcfce52dcf48, type: 3}
+        <ItemID>k__BackingField: Rose
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 8d42afa2c7fd04548a286a73a95c6c0d, type: 3}
+        <ItemID>k__BackingField: Ring
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: e7fe56bac216de444a6bf4592458a412, type: 3}
+        <ItemID>k__BackingField: Cake
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 10edd1a67d7e8fd4bbc3d6d2997320c3, type: 3}
+        <ItemID>k__BackingField: TextX
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: f200225f4d46c0b4a8b18647d6a47af2, type: 3}
+        <ItemID>k__BackingField: TextE
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: fa231b8a8235d024989d017abf0f06ad, type: 3}
+        <ItemID>k__BackingField: TextQ
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_15
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 4
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 225ab92a5f90c3e47b6dae089b9afe64, type: 3}
+        <ItemID>k__BackingField: Giftbox
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 56a5253e5c029874ebddc917016efa8a, type: 3}
+        <ItemID>k__BackingField: Watermelon
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 0d01bad378f2ee940934beb0b08f549e, type: 3}
+        <ItemID>k__BackingField: Frog
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 413178dfbe8dc1644b41f6828b0768d8, type: 3}
+        <ItemID>k__BackingField: Hen
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 6dbbadf787f6ab14384daed90df0fbff, type: 3}
+        <ItemID>k__BackingField: Grape
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 1bc97fcb95a0d5e4b9d7b235f87564a0, type: 3}
+        <ItemID>k__BackingField: Yarn
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 7674333dd3922b64091f44be11bf66f7, type: 3}
+        <ItemID>k__BackingField: Crown
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: d2c5d759e3ed5424f98d73040a79836a, type: 3}
+        <ItemID>k__BackingField: Diamond2
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: eb7aef564cc2f5b4c9a7bdbea61059d9, type: 3}
+        <ItemID>k__BackingField: TextC
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: e87db1f74275e7a4096c5a383338925e, type: 3}
+        <ItemID>k__BackingField: Queen
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: e455a0eee817d574696ff31f11a2d95d, type: 3}
+        <ItemID>k__BackingField: Diamond1
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_16
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 15
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 090802ce933af7646b3d43bfaf37b7b6, type: 3}
+        <ItemID>k__BackingField: Apple
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 12
+      - Icon: {fileID: 21300000, guid: ec5d8ea57a17dd74390e1c2e5d249264, type: 3}
+        <ItemID>k__BackingField: Tomato
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: d46b526b5da9fb9439e28d0dfc437fc2, type: 3}
+        <ItemID>k__BackingField: Octopus2
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: ceb6e30610b59bb4b87a4553d0554fd0, type: 3}
+        <ItemID>k__BackingField: Kiwi
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 41ea7730e9d0c4146acc2edf33381d52, type: 3}
+        <ItemID>k__BackingField: Elephant
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: cb2ec3b2dd7129947a363f7277218d57, type: 3}
+        <ItemID>k__BackingField: Horse
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 53fdf023396f4dc418aeb539c20e591c, type: 3}
+        <ItemID>k__BackingField: Cow
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: b4d6f269548b23f4ebf518f2affb3865, type: 3}
+        <ItemID>k__BackingField: Ladybug
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 58e3c002ae3af274598eb207f6c3f223, type: 3}
+        <ItemID>k__BackingField: Number4
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 9284bcb9eab70524c9780204056b6910, type: 3}
+        <ItemID>k__BackingField: Butterfly4
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_17
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 090802ce933af7646b3d43bfaf37b7b6, type: 3}
+        <ItemID>k__BackingField: Apple
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 44dd4b4f601008e4196d98a261787c31, type: 3}
+        <ItemID>k__BackingField: Banana
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: eaaa71345909bdd4ebe4b29ef9485ccb, type: 3}
+        <ItemID>k__BackingField: Yogurt
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 067f704ebdbd38740969fa3f421581e0, type: 3}
+        <ItemID>k__BackingField: Hotdog
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 0d573d1261971804eb98cd492d448d9b, type: 3}
+        <ItemID>k__BackingField: Waffle
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 504664bd5ed3fce49a5d54f0995d2705, type: 3}
+        <ItemID>k__BackingField: Ham
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 1e81447d94e266443b6045b3aff9eb0e, type: 3}
+        <ItemID>k__BackingField: Hamburger
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: e7fe56bac216de444a6bf4592458a412, type: 3}
+        <ItemID>k__BackingField: Cake
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 97efa2f43850f704a93c72df75aee29e, type: 3}
+        <ItemID>k__BackingField: Pizza
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_18
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 0d01bad378f2ee940934beb0b08f549e, type: 3}
+        <ItemID>k__BackingField: Frog
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 413178dfbe8dc1644b41f6828b0768d8, type: 3}
+        <ItemID>k__BackingField: Hen
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 53fdf023396f4dc418aeb539c20e591c, type: 3}
+        <ItemID>k__BackingField: Cow
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: d01e17f62f1eb624b8c5cac8d92bcf57, type: 3}
+        <ItemID>k__BackingField: Dog
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 15
+      - Icon: {fileID: 21300000, guid: 01e7977a229cf5d43963f9c5a4cd9e31, type: 3}
+        <ItemID>k__BackingField: Giraffe
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 8ca0c177279151e4bbac34bce138c1b4, type: 3}
+        <ItemID>k__BackingField: Bone
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 96573e85246b75242be4151aab6546a5, type: 3}
+        <ItemID>k__BackingField: Fish
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 3e0ac4389497c914b9337d69f1a3ca51, type: 3}
+        <ItemID>k__BackingField: Cat
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_19
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 15
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 437ab0ae0bd8da449ab3afb1e9bd24b7, type: 3}
+        <ItemID>k__BackingField: Log
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 0d0c49656e09fae4996d04fff8621caf, type: 3}
+        <ItemID>k__BackingField: Backpack
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 2e0afb11a448c99438fd7e4cd417bc58, type: 3}
+        <ItemID>k__BackingField: Piano
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: 9c36abd03c316294880dc0c3f2bfd2da, type: 3}
+        <ItemID>k__BackingField: Trumpet
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 999da9e6b42f4ca49a99c4a6981bc782, type: 3}
+        <ItemID>k__BackingField: Violin
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 68266de0df31d6b40a957c1c8ef8785c, type: 3}
+        <ItemID>k__BackingField: Broom
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 27a6826e44a5d844eb4081ecbf6c581d, type: 3}
+        <ItemID>k__BackingField: Acorn
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: ed28511067a95154892d2d17e0f0e9f6, type: 3}
+        <ItemID>k__BackingField: Bell
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 430415a44884cbd4c8c578e52964aaeb, type: 3}
+        <ItemID>k__BackingField: Harp
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_20
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 6f9a0d57850318348b4520ac4cce2092, type: 3}
+        <ItemID>k__BackingField: Eagle
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 9959525b87e3cca4fb275ee9ab73d26b, type: 3}
+        <ItemID>k__BackingField: Smartphones
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: dcf0524553641804fade71d3f5941b13, type: 3}
+        <ItemID>k__BackingField: Kleenex
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 8ca0c177279151e4bbac34bce138c1b4, type: 3}
+        <ItemID>k__BackingField: Bone
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: b135b267a912761429cc96970a9350c2, type: 3}
+        <ItemID>k__BackingField: Desk
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 1b7603fde50445a41b07ab65c6bf95ef, type: 3}
+        <ItemID>k__BackingField: Ice
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: fd5f815e36f283046832ab89ab36575b, type: 3}
+        <ItemID>k__BackingField: Igloo
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 131b7b55cb0d7c843aec4c475b52cd1e, type: 3}
+        <ItemID>k__BackingField: Whale
+        <ItemsCount>k__BackingField: 21
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: cffe703faac26284681f0bbb8d254418, type: 3}
+        <ItemID>k__BackingField: LobsterToy4
+        <ItemsCount>k__BackingField: 21
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: cc0f790be3075694fa027686ce0a982a, type: 3}
+        <ItemID>k__BackingField: Binoculars1
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_21
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 2
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 63caaf1904eed9b45bc7bcfce52dcf48, type: 3}
+        <ItemID>k__BackingField: Rose
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 7f66b56ff69cf4146b73d3b3fac11d67, type: 3}
+        <ItemID>k__BackingField: Pencil
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 090802ce933af7646b3d43bfaf37b7b6, type: 3}
+        <ItemID>k__BackingField: Apple
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 2ae71be42ac686c498bcd61950855ed1, type: 3}
+        <ItemID>k__BackingField: Lemon
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 44dd4b4f601008e4196d98a261787c31, type: 3}
+        <ItemID>k__BackingField: Banana
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 0d01bad378f2ee940934beb0b08f549e, type: 3}
+        <ItemID>k__BackingField: Frog
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: ce6b53744f02b1b4fb3816798aa2007f, type: 3}
+        <ItemID>k__BackingField: Icecream
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 32967bd11376c6a40a17ce0484ee63f3, type: 3}
+        <ItemID>k__BackingField: TextJ
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 5cb28530109c60b418da7f13a9afd658, type: 3}
+        <ItemID>k__BackingField: ExclamationMark
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 53fcf72472c13ea4095d9bc756b0684e, type: 3}
+        <ItemID>k__BackingField: Fan
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 44365f47feac6e44d9b97f1398a2c9eb, type: 3}
+        <ItemID>k__BackingField: Pillow
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_22
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 4
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 225ab92a5f90c3e47b6dae089b9afe64, type: 3}
+        <ItemID>k__BackingField: Giftbox
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 090802ce933af7646b3d43bfaf37b7b6, type: 3}
+        <ItemID>k__BackingField: Apple
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: fbbdae6968b0e064caaae29ff2ff9b1c, type: 3}
+        <ItemID>k__BackingField: Cheese
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: fa805a70ebd076d488914cb38a41de9e, type: 3}
+        <ItemID>k__BackingField: Note
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 42c5f29b52003c848852d483eb5c7024, type: 3}
+        <ItemID>k__BackingField: Tree
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: e87db1f74275e7a4096c5a383338925e, type: 3}
+        <ItemID>k__BackingField: Queen
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 56a5253e5c029874ebddc917016efa8a, type: 3}
+        <ItemID>k__BackingField: Watermelon
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: e6bf79e20d446be4da941f7146acd6e6, type: 3}
+        <ItemID>k__BackingField: Book
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: a71faaba608ec7e40950e543e568fa3d, type: 3}
+        <ItemID>k__BackingField: Taco
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_23
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 2
+        seconds: 25
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 1b7603fde50445a41b07ab65c6bf95ef, type: 3}
+        <ItemID>k__BackingField: Ice
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 12
+      - Icon: {fileID: 21300000, guid: 131b7b55cb0d7c843aec4c475b52cd1e, type: 3}
+        <ItemID>k__BackingField: Whale
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 12
+      - Icon: {fileID: 21300000, guid: 8f87dff403dfaf34b8f756ed3568f1b2, type: 3}
+        <ItemID>k__BackingField: Drum
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 6dbbadf787f6ab14384daed90df0fbff, type: 3}
+        <ItemID>k__BackingField: Grape
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 0d01bad378f2ee940934beb0b08f549e, type: 3}
+        <ItemID>k__BackingField: Frog
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: eaaa71345909bdd4ebe4b29ef9485ccb, type: 3}
+        <ItemID>k__BackingField: Yogurt
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: d078cb32915a7064f9ac8d9d4d8b930e, type: 3}
+        <ItemID>k__BackingField: Number7
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 102059cb0e8333d49b4efe45262151e5, type: 3}
+        <ItemID>k__BackingField: Bubble1
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 42de68aeb2124444ba1923833ac7fc3c, type: 3}
+        <ItemID>k__BackingField: Basket1
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_24
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 2
+        seconds: 30
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 3f7e6ac12e5136f4c88f18b19fccab5f, type: 3}
+        <ItemID>k__BackingField: Pig
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 96573e85246b75242be4151aab6546a5, type: 3}
+        <ItemID>k__BackingField: Fish
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 6f9a0d57850318348b4520ac4cce2092, type: 3}
+        <ItemID>k__BackingField: Eagle
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: ec5d8ea57a17dd74390e1c2e5d249264, type: 3}
+        <ItemID>k__BackingField: Tomato
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: dc85421783c23574f94fdf980eef7f8c, type: 3}
+        <ItemID>k__BackingField: Tiger
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: aef8b02a6af843844be4da75433e555e, type: 3}
+        <ItemID>k__BackingField: Owl
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: d078cb32915a7064f9ac8d9d4d8b930e, type: 3}
+        <ItemID>k__BackingField: Number7
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 618421915d3d1104cbe3f6d968ef68fa, type: 3}
+        <ItemID>k__BackingField: LesserPanda
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: ec4b8fa073cfebf4a9b6542c7c39204c, type: 3}
+        <ItemID>k__BackingField: Hippo
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: b8e672b08adf5d441824728b9aac3b32, type: 3}
+        <ItemID>k__BackingField: Cactus_1
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 0d1acef4a2a0ba24d9b5b7af472b1edf, type: 3}
+        <ItemID>k__BackingField: Apple1
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_25
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 30
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: cd35dd032e8a7574a85049a5f61f0678, type: 3}
+        <ItemID>k__BackingField: Robot
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 434b213ae30b97240970b2c856ab1a46, type: 3}
+        <ItemID>k__BackingField: Star
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 96573e85246b75242be4151aab6546a5, type: 3}
+        <ItemID>k__BackingField: Fish
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 33b90cfbe5c68e54a867a033390f1be3, type: 3}
+        <ItemID>k__BackingField: Shark
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 97efa2f43850f704a93c72df75aee29e, type: 3}
+        <ItemID>k__BackingField: Pizza
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 34d75474e40f68f4e9a793fa1f5e77be, type: 3}
+        <ItemID>k__BackingField: Airplane4
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 133292dbc533ba04f9dddd62efce40a5, type: 3}
+        <ItemID>k__BackingField: Basket2
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 8f44fe058a9abf64686c4c6319d1e440, type: 3}
+        <ItemID>k__BackingField: Can2
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 71490d47f4f0b564d91297f495f46192, type: 3}
+        <ItemID>k__BackingField: Book3
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 194b4be9056520841b0ea2793d9c01ae, type: 3}
+        <ItemID>k__BackingField: Sheep2
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 55290841cabb44949bbc9e18d809065c, type: 3}
+        <ItemID>k__BackingField: Fox
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 5d4cfbfdd1f523747b05e04de76a5842, type: 3}
+        <ItemID>k__BackingField: Car1
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_26
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 4
+        seconds: 15
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: fd5f815e36f283046832ab89ab36575b, type: 3}
+        <ItemID>k__BackingField: Igloo
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: dcf0524553641804fade71d3f5941b13, type: 3}
+        <ItemID>k__BackingField: Kleenex
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 5db442798c7dfe44892fec0ccef5bd9e, type: 3}
+        <ItemID>k__BackingField: Basketball
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 5bca935f4b7b9aa49ae946b232961fec, type: 3}
+        <ItemID>k__BackingField: Airplane
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: ec4b8fa073cfebf4a9b6542c7c39204c, type: 3}
+        <ItemID>k__BackingField: Hippo
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 41ea7730e9d0c4146acc2edf33381d52, type: 3}
+        <ItemID>k__BackingField: Elephant
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 6f320a5c3cba08442badc9ab1c3a7439, type: 3}
+        <ItemID>k__BackingField: Panda
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 618421915d3d1104cbe3f6d968ef68fa, type: 3}
+        <ItemID>k__BackingField: LesserPanda
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: f59a443e6e14dfc4c9be431cb3a333f1, type: 3}
+        <ItemID>k__BackingField: DinosaurEgg5
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 58c08bbfb27fb3646a9d609bbe3de74a, type: 3}
+        <ItemID>k__BackingField: DinosaurEgg3
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 9c34438f6bff50f4296c47618543c53b, type: 3}
+        <ItemID>k__BackingField: Moon
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: a45483659b324ca4dbc598f05e00c8d9, type: 3}
+        <ItemID>k__BackingField: Cup3
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: ceb6e30610b59bb4b87a4553d0554fd0, type: 3}
+        <ItemID>k__BackingField: Kiwi
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 8ca0c177279151e4bbac34bce138c1b4, type: 3}
+        <ItemID>k__BackingField: Bone
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_27
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 15
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 8ca0c177279151e4bbac34bce138c1b4, type: 3}
+        <ItemID>k__BackingField: Bone
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 63caaf1904eed9b45bc7bcfce52dcf48, type: 3}
+        <ItemID>k__BackingField: Rose
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: fa805a70ebd076d488914cb38a41de9e, type: 3}
+        <ItemID>k__BackingField: Note
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: cb2ec3b2dd7129947a363f7277218d57, type: 3}
+        <ItemID>k__BackingField: Horse
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: d166251b1e602a040a51cc05cf45fd35, type: 3}
+        <ItemID>k__BackingField: Number8
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 0d8ac85fa2c38474680bb9dba14adee6, type: 3}
+        <ItemID>k__BackingField: Hat
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 5a7fc23abd4d41e4cbe913493a4cd88e, type: 3}
+        <ItemID>k__BackingField: Mushroom
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 44365f47feac6e44d9b97f1398a2c9eb, type: 3}
+        <ItemID>k__BackingField: Pillow
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: ad2a291b0da0a844fb98479848a8de3b, type: 3}
+        <ItemID>k__BackingField: Ant
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 666580f50b9d3cd42bee9f9db9d3beb6, type: 3}
+        <ItemID>k__BackingField: Dragonfly
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 15
+      - Icon: {fileID: 21300000, guid: d078cb32915a7064f9ac8d9d4d8b930e, type: 3}
+        <ItemID>k__BackingField: Number7
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: b2192f320fbec2d46aef845032f329f0, type: 3}
+        <ItemID>k__BackingField: EighthNote1
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_28
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 30
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 1b7603fde50445a41b07ab65c6bf95ef, type: 3}
+        <ItemID>k__BackingField: Ice
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: fd16111cf5e593d42bf19550d8bf3203, type: 3}
+        <ItemID>k__BackingField: Dice
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 2a19c3e4f007310428b9e08b45605b70, type: 3}
+        <ItemID>k__BackingField: Football
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 44746c9c8b3eebd49805a72df1af7660, type: 3}
+        <ItemID>k__BackingField: Newspaper
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: a5e02637f739c8c48b9c0010a6ac5ef2, type: 3}
+        <ItemID>k__BackingField: Egg
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 5ab0c3cadc4edf64a84340ca34fc4f6e, type: 3}
+        <ItemID>k__BackingField: Ghost
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 9c34438f6bff50f4296c47618543c53b, type: 3}
+        <ItemID>k__BackingField: Moon
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 376c9d6d1f7ae174d84bb8bed560ba7c, type: 3}
+        <ItemID>k__BackingField: Ufo
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 31a928cfa82394145a498b2c0cf41863, type: 3}
+        <ItemID>k__BackingField: Octopus4
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 6b502d44bd5078e4d93a04e3b8696691, type: 3}
+        <ItemID>k__BackingField: Octopus1
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 2d04ca75e2d494f4fb554fcb7e4329aa, type: 3}
+        <ItemID>k__BackingField: Cup
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_29
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 30
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: b0cf8261ebfb0ba49b3af18e98a392cb, type: 3}
+        <ItemID>k__BackingField: Apple3
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 924555a39b208e148988a83d07ef7276, type: 3}
+        <ItemID>k__BackingField: Guitar
+        <ItemsCount>k__BackingField: 21
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 503d13bb0f3bb33489e8362fac9154e2, type: 3}
+        <ItemID>k__BackingField: Basket
+        <ItemsCount>k__BackingField: 21
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 0d01bad378f2ee940934beb0b08f549e, type: 3}
+        <ItemID>k__BackingField: Frog
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 964db29a39b878942958f2a371823d8d, type: 3}
+        <ItemID>k__BackingField: Number2
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 2fc88e22b8351ac4a8f72b27c41b98b1, type: 3}
+        <ItemID>k__BackingField: Ship
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: d078cb32915a7064f9ac8d9d4d8b930e, type: 3}
+        <ItemID>k__BackingField: Number7
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 7033e938fdf260f43afc8b2b324c51d1, type: 3}
+        <ItemID>k__BackingField: Tube1
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: e0d632febb8f2434b968893b91ec0a24, type: 3}
+        <ItemID>k__BackingField: Fly
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_30
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 2
+        seconds: 30
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: d078cb32915a7064f9ac8d9d4d8b930e, type: 3}
+        <ItemID>k__BackingField: Number7
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 44dd4b4f601008e4196d98a261787c31, type: 3}
+        <ItemID>k__BackingField: Banana
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 2ae71be42ac686c498bcd61950855ed1, type: 3}
+        <ItemID>k__BackingField: Lemon
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 6a6bfcaa4314b034abeb51db4ffee9bd, type: 3}
+        <ItemID>k__BackingField: Kettle
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: e6bf79e20d446be4da941f7146acd6e6, type: 3}
+        <ItemID>k__BackingField: Book
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 2d04ca75e2d494f4fb554fcb7e4329aa, type: 3}
+        <ItemID>k__BackingField: Cup
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: b0cf8261ebfb0ba49b3af18e98a392cb, type: 3}
+        <ItemID>k__BackingField: Apple3
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 5a7fc23abd4d41e4cbe913493a4cd88e, type: 3}
+        <ItemID>k__BackingField: Mushroom
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 34d75474e40f68f4e9a793fa1f5e77be, type: 3}
+        <ItemID>k__BackingField: Airplane4
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 12
+      - Icon: {fileID: 21300000, guid: 2aaced168dc7d5d47b4504324ebaa246, type: 3}
+        <ItemID>k__BackingField: SpikyToy8
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 12
+      - Icon: {fileID: 21300000, guid: 18501f98131564c46a0791d116ab8700, type: 3}
+        <ItemID>k__BackingField: DinosaurEgg
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: f7371c23a20d024468b7a6f631d36dba, type: 3}
+        <ItemID>k__BackingField: SawBlade
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 9c7a742715436b24ab6edc9349f6ae65, type: 3}
+        <ItemID>k__BackingField: Gear
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 0da12afb0e4456a45b56c8ed1261ab19, type: 3}
+        <ItemID>k__BackingField: Candy
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 84990d333b553e045882f2d370bc0f9f, type: 3}
+        <ItemID>k__BackingField: Number0
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: f1f0f6991552d454089fd140cd4c06ce, type: 3}
+        <ItemID>k__BackingField: SingleBarNote
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_31
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 30
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 93d26622822af7c49ae4da2079520a00, type: 3}
+        <ItemID>k__BackingField: Fork
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 4afefea5ed8b9374394ea8da91f37fea, type: 3}
+        <ItemID>k__BackingField: Spoon
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 3b3a5e661141f2640a3b6c707a6de9da, type: 3}
+        <ItemID>k__BackingField: DinosaurEgg1
+        <ItemsCount>k__BackingField: 24
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 221353bebf2509543b84deeeb5118762, type: 3}
+        <ItemID>k__BackingField: Orange
+        <ItemsCount>k__BackingField: 24
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 090802ce933af7646b3d43bfaf37b7b6, type: 3}
+        <ItemID>k__BackingField: Apple
+        <ItemsCount>k__BackingField: 24
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 19a9d5930f106f54db6133d32baca8c4, type: 3}
+        <ItemID>k__BackingField: FriedEgg
+        <ItemsCount>k__BackingField: 24
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 2ae71be42ac686c498bcd61950855ed1, type: 3}
+        <ItemID>k__BackingField: Lemon
+        <ItemsCount>k__BackingField: 24
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_32
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 4
+        seconds: 25
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 75ef7a5e55d8e0c45aadfe597d07186b, type: 3}
+        <ItemID>k__BackingField: Butterfly3
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 15
+      - Icon: {fileID: 21300000, guid: 1e0fb86fbc5da5b45bf59d9740d5a78f, type: 3}
+        <ItemID>k__BackingField: Can3
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 18
+      - Icon: {fileID: 21300000, guid: b4d6f269548b23f4ebf518f2affb3865, type: 3}
+        <ItemID>k__BackingField: Ladybug
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: 6a6bfcaa4314b034abeb51db4ffee9bd, type: 3}
+        <ItemID>k__BackingField: Kettle
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 503d13bb0f3bb33489e8362fac9154e2, type: 3}
+        <ItemID>k__BackingField: Basket
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 44dd4b4f601008e4196d98a261787c31, type: 3}
+        <ItemID>k__BackingField: Banana
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: b4415606f1243ae47818516d76c96ac7, type: 3}
+        <ItemID>k__BackingField: Bag
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 1b687564dca282f4a908c4f6f8e38a5a, type: 3}
+        <ItemID>k__BackingField: Number9
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 88b4bf03a8da85846a440b88bf636d46, type: 3}
+        <ItemID>k__BackingField: Candy1
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_33
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 2
+        seconds: 45
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: a5e02637f739c8c48b9c0010a6ac5ef2, type: 3}
+        <ItemID>k__BackingField: Egg
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 12
+      - Icon: {fileID: 21300000, guid: de0a43526ab5f4846a53e4f54409dbb2, type: 3}
+        <ItemID>k__BackingField: Monkey
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 19bebdeadf9e736449c07331a84fd85b, type: 3}
+        <ItemID>k__BackingField: Duck
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 53fdf023396f4dc418aeb539c20e591c, type: 3}
+        <ItemID>k__BackingField: Cow
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 0d01bad378f2ee940934beb0b08f549e, type: 3}
+        <ItemID>k__BackingField: Frog
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: aef8b02a6af843844be4da75433e555e, type: 3}
+        <ItemID>k__BackingField: Owl
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 413178dfbe8dc1644b41f6828b0768d8, type: 3}
+        <ItemID>k__BackingField: Hen
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 55290841cabb44949bbc9e18d809065c, type: 3}
+        <ItemID>k__BackingField: Fox
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 054790941df8d99478977870b2562272, type: 3}
+        <ItemID>k__BackingField: Spider
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 19a9d5930f106f54db6133d32baca8c4, type: 3}
+        <ItemID>k__BackingField: FriedEgg
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_34
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 34d75474e40f68f4e9a793fa1f5e77be, type: 3}
+        <ItemID>k__BackingField: Airplane4
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: cd35dd032e8a7574a85049a5f61f0678, type: 3}
+        <ItemID>k__BackingField: Robot
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: 4ce04874dce94544bbab7ac21263beef, type: 3}
+        <ItemID>k__BackingField: Zebra
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 15c575cf5d3b84442b3125f1c4eeaca6, type: 3}
+        <ItemID>k__BackingField: Ink
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: 0e08419a942960f4392a6af57163946c, type: 3}
+        <ItemID>k__BackingField: Car
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 2a19c3e4f007310428b9e08b45605b70, type: 3}
+        <ItemID>k__BackingField: Football
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 6cdc7346c5639cf4283bb9a592a02524, type: 3}
+        <ItemID>k__BackingField: Jar
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 9c34438f6bff50f4296c47618543c53b, type: 3}
+        <ItemID>k__BackingField: Moon
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: cc0f790be3075694fa027686ce0a982a, type: 3}
+        <ItemID>k__BackingField: Binoculars1
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: f38e9dbffc5ec5341a6ff572be7caf78, type: 3}
+        <ItemID>k__BackingField: Globe
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 8cd2d960544054d4a9f6c5208adf9ab8, type: 3}
+        <ItemID>k__BackingField: Cloud
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: a5e02637f739c8c48b9c0010a6ac5ef2, type: 3}
+        <ItemID>k__BackingField: Egg
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_35
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 30
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 413178dfbe8dc1644b41f6828b0768d8, type: 3}
+        <ItemID>k__BackingField: Hen
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 63caaf1904eed9b45bc7bcfce52dcf48, type: 3}
+        <ItemID>k__BackingField: Rose
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: 8ca0c177279151e4bbac34bce138c1b4, type: 3}
+        <ItemID>k__BackingField: Bone
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: 1153acca43599d143a821727e9fc86cc, type: 3}
+        <ItemID>k__BackingField: Octopus3
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: b8e672b08adf5d441824728b9aac3b32, type: 3}
+        <ItemID>k__BackingField: Cactus_1
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 437ab0ae0bd8da449ab3afb1e9bd24b7, type: 3}
+        <ItemID>k__BackingField: Log
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 42c5f29b52003c848852d483eb5c7024, type: 3}
+        <ItemID>k__BackingField: Tree
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 3ab186b971f7037429d189e23d4fafa9, type: 3}
+        <ItemID>k__BackingField: Bee
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 090802ce933af7646b3d43bfaf37b7b6, type: 3}
+        <ItemID>k__BackingField: Apple
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 19bebdeadf9e736449c07331a84fd85b, type: 3}
+        <ItemID>k__BackingField: Duck
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 666580f50b9d3cd42bee9f9db9d3beb6, type: 3}
+        <ItemID>k__BackingField: Dragonfly
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: b4d6f269548b23f4ebf518f2affb3865, type: 3}
+        <ItemID>k__BackingField: Ladybug
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 44365f47feac6e44d9b97f1398a2c9eb, type: 3}
+        <ItemID>k__BackingField: Pillow
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_36
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 45
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: f200225f4d46c0b4a8b18647d6a47af2, type: 3}
+        <ItemID>k__BackingField: TextE
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: ab93f4f9164273e469b8b9687a3c2fc7, type: 3}
+        <ItemID>k__BackingField: Number3
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: 964db29a39b878942958f2a371823d8d, type: 3}
+        <ItemID>k__BackingField: Number2
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: f75b28d3edd278c42852490b50eaf9de, type: 3}
+        <ItemID>k__BackingField: TextP
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: 001b6c7e864ea4947877c03ef3f6f467, type: 3}
+        <ItemID>k__BackingField: TextM
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: 1b687564dca282f4a908c4f6f8e38a5a, type: 3}
+        <ItemID>k__BackingField: Number9
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 6dbbadf787f6ab14384daed90df0fbff, type: 3}
+        <ItemID>k__BackingField: Grape
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 221353bebf2509543b84deeeb5118762, type: 3}
+        <ItemID>k__BackingField: Orange
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 12a799a842795a243b290af8cdd13a68, type: 3}
+        <ItemID>k__BackingField: Pumpkin
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 44dd4b4f601008e4196d98a261787c31, type: 3}
+        <ItemID>k__BackingField: Banana
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: cb4d327c52c7f57469bd9e26ee3c3253, type: 3}
+        <ItemID>k__BackingField: Garlic
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: b8e672b08adf5d441824728b9aac3b32, type: 3}
+        <ItemID>k__BackingField: Cactus_1
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: ec5d8ea57a17dd74390e1c2e5d249264, type: 3}
+        <ItemID>k__BackingField: Tomato
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 89d2e9d39a8e2d34c8c1cdd50aec6677, type: 3}
+        <ItemID>k__BackingField: Pea
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 08f447a8dc76e62468cf606eb3c92cf7, type: 3}
+        <ItemID>k__BackingField: Carrot
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 02a9508250be65a45b94ccffd68f67ca, type: 3}
+        <ItemID>k__BackingField: Cherry
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_37
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 15
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 2e0afb11a448c99438fd7e4cd417bc58, type: 3}
+        <ItemID>k__BackingField: Piano
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 999da9e6b42f4ca49a99c4a6981bc782, type: 3}
+        <ItemID>k__BackingField: Violin
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 8f87dff403dfaf34b8f756ed3568f1b2, type: 3}
+        <ItemID>k__BackingField: Drum
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 4d71a0ea733ba1b4f9a307ad80f82067, type: 3}
+        <ItemID>k__BackingField: Mike
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: 0d0c49656e09fae4996d04fff8621caf, type: 3}
+        <ItemID>k__BackingField: Backpack
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 504664bd5ed3fce49a5d54f0995d2705, type: 3}
+        <ItemID>k__BackingField: Ham
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: b135b267a912761429cc96970a9350c2, type: 3}
+        <ItemID>k__BackingField: Desk
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 7c176c6792360404698559989f6b3d42, type: 3}
+        <ItemID>k__BackingField: Backpack2
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 90c93c3fbc4fb2446954e27486e44684, type: 3}
+        <ItemID>k__BackingField: Window
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: c2bb5bd775e42824aab287f4d29a4a0e, type: 3}
+        <ItemID>k__BackingField: Chair
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: fa805a70ebd076d488914cb38a41de9e, type: 3}
+        <ItemID>k__BackingField: Note
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 27a6826e44a5d844eb4081ecbf6c581d, type: 3}
+        <ItemID>k__BackingField: Acorn
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 68266de0df31d6b40a957c1c8ef8785c, type: 3}
+        <ItemID>k__BackingField: Broom
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 93d26622822af7c49ae4da2079520a00, type: 3}
+        <ItemID>k__BackingField: Fork
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 437ab0ae0bd8da449ab3afb1e9bd24b7, type: 3}
+        <ItemID>k__BackingField: Log
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: a0c8cb6a78a228b46a5251b04b583aa8, type: 3}
+        <ItemID>k__BackingField: Table
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_38
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 1e81447d94e266443b6045b3aff9eb0e, type: 3}
+        <ItemID>k__BackingField: Hamburger
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 97efa2f43850f704a93c72df75aee29e, type: 3}
+        <ItemID>k__BackingField: Pizza
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 0d573d1261971804eb98cd492d448d9b, type: 3}
+        <ItemID>k__BackingField: Waffle
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: e7fe56bac216de444a6bf4592458a412, type: 3}
+        <ItemID>k__BackingField: Cake
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 93d26622822af7c49ae4da2079520a00, type: 3}
+        <ItemID>k__BackingField: Fork
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 6dbbadf787f6ab14384daed90df0fbff, type: 3}
+        <ItemID>k__BackingField: Grape
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 090802ce933af7646b3d43bfaf37b7b6, type: 3}
+        <ItemID>k__BackingField: Apple
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: ec5d8ea57a17dd74390e1c2e5d249264, type: 3}
+        <ItemID>k__BackingField: Tomato
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 44dd4b4f601008e4196d98a261787c31, type: 3}
+        <ItemID>k__BackingField: Banana
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 2ae71be42ac686c498bcd61950855ed1, type: 3}
+        <ItemID>k__BackingField: Lemon
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 56a5253e5c029874ebddc917016efa8a, type: 3}
+        <ItemID>k__BackingField: Watermelon
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 08f447a8dc76e62468cf606eb3c92cf7, type: 3}
+        <ItemID>k__BackingField: Carrot
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: cb4d327c52c7f57469bd9e26ee3c3253, type: 3}
+        <ItemID>k__BackingField: Garlic
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 27a6826e44a5d844eb4081ecbf6c581d, type: 3}
+        <ItemID>k__BackingField: Acorn
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: ed66305876ca73d44871d9918cfa3d64, type: 3}
+        <ItemID>k__BackingField: TextW
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: ceb6e30610b59bb4b87a4553d0554fd0, type: 3}
+        <ItemID>k__BackingField: Kiwi
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: c7edd59fc1a201042bd3d74ff1c53e5a, type: 3}
+        <ItemID>k__BackingField: Onion
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_39
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 2fc88e22b8351ac4a8f72b27c41b98b1, type: 3}
+        <ItemID>k__BackingField: Ship
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 5bca935f4b7b9aa49ae946b232961fec, type: 3}
+        <ItemID>k__BackingField: Airplane
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 201d7183684f09b4fb12a7b47b8d27c8, type: 3}
+        <ItemID>k__BackingField: Canon
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 133292dbc533ba04f9dddd62efce40a5, type: 3}
+        <ItemID>k__BackingField: Basket2
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: ec5d8ea57a17dd74390e1c2e5d249264, type: 3}
+        <ItemID>k__BackingField: Tomato
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 44365f47feac6e44d9b97f1398a2c9eb, type: 3}
+        <ItemID>k__BackingField: Pillow
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 2e36c4b6a4b69f84db92eb8c7c38e485, type: 3}
+        <ItemID>k__BackingField: Pillow5
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: c8a10a14ec77091478070c9f8dacec63, type: 3}
+        <ItemID>k__BackingField: Airplane7
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 77545558cf4db4641938629ea61257cc, type: 3}
+        <ItemID>k__BackingField: Binoculars4
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: ff3a45fd4d9944c44bc413004f2a8288, type: 3}
+        <ItemID>k__BackingField: Candy14
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 150534244f6e58e4983d1bded20908ce, type: 3}
+        <ItemID>k__BackingField: Candy13
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_40
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 0d01bad378f2ee940934beb0b08f549e, type: 3}
+        <ItemID>k__BackingField: Frog
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 33b90cfbe5c68e54a867a033390f1be3, type: 3}
+        <ItemID>k__BackingField: Shark
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: 96573e85246b75242be4151aab6546a5, type: 3}
+        <ItemID>k__BackingField: Fish
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 054790941df8d99478977870b2562272, type: 3}
+        <ItemID>k__BackingField: Spider
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: b8e672b08adf5d441824728b9aac3b32, type: 3}
+        <ItemID>k__BackingField: Cactus_1
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: a851e66d9b4b23e45ad541b589746a35, type: 3}
+        <ItemID>k__BackingField: RubberDuck
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: e0d632febb8f2434b968893b91ec0a24, type: 3}
+        <ItemID>k__BackingField: Fly
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: d4b1c3f14e52d5c4fbf611ec0b6083b2, type: 3}
+        <ItemID>k__BackingField: DinosaurHat1
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 6194e39b5b2353b4992e5c4ed17a1e22, type: 3}
+        <ItemID>k__BackingField: CrocodileToy
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: c69f8cefb488fe143a3e42870ce63096, type: 3}
+        <ItemID>k__BackingField: LobsterToy3
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 131b7b55cb0d7c843aec4c475b52cd1e, type: 3}
+        <ItemID>k__BackingField: Whale
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_41
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 30
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 131b7b55cb0d7c843aec4c475b52cd1e, type: 3}
+        <ItemID>k__BackingField: Whale
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 12
+      - Icon: {fileID: 21300000, guid: d166251b1e602a040a51cc05cf45fd35, type: 3}
+        <ItemID>k__BackingField: Number8
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 12
+      - Icon: {fileID: 21300000, guid: 841efb0d29578274c9780baf368cf082, type: 3}
+        <ItemID>k__BackingField: PotionBlue
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 12
+      - Icon: {fileID: 21300000, guid: 12a799a842795a243b290af8cdd13a68, type: 3}
+        <ItemID>k__BackingField: Pumpkin
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 35a182de6c73ece49bad46e4dc060b6f, type: 3}
+        <ItemID>k__BackingField: Can1
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 7033e938fdf260f43afc8b2b324c51d1, type: 3}
+        <ItemID>k__BackingField: Tube1
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: fa9b39b9cda4b3d4a9c96d2e6c704a68, type: 3}
+        <ItemID>k__BackingField: Fish1
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 5ed3477c6fd88b44abda40387cf8c252, type: 3}
+        <ItemID>k__BackingField: Octopus
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 7e8f8edfc79ac134cbee8bfdd19abdcb, type: 3}
+        <ItemID>k__BackingField: Tape1
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 987614412d9a83d46b7c8724f83417e7, type: 3}
+        <ItemID>k__BackingField: Ball2
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: da67aaaa00187d8438b2925cfd9fdead, type: 3}
+        <ItemID>k__BackingField: TextB
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 2cff7781aa288fb46836f8d2656bc7de, type: 3}
+        <ItemID>k__BackingField: Bucket
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 96573e85246b75242be4151aab6546a5, type: 3}
+        <ItemID>k__BackingField: Fish
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_42
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 89520090be5ff07478daec459a8ab813, type: 3}
+        <ItemID>k__BackingField: EighthNote
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: e62db7c6b66da114e9b08854f8db136a, type: 3}
+        <ItemID>k__BackingField: Piano1
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 430415a44884cbd4c8c578e52964aaeb, type: 3}
+        <ItemID>k__BackingField: Harp
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 2cb91afe41bf1184a91ebad24a5d9b08, type: 3}
+        <ItemID>k__BackingField: ToyTrumpet
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: d4a3d2335a14daa448a86718a9f76352, type: 3}
+        <ItemID>k__BackingField: Radio
+        <ItemsCount>k__BackingField: 21
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 8f87dff403dfaf34b8f756ed3568f1b2, type: 3}
+        <ItemID>k__BackingField: Drum
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 2e0afb11a448c99438fd7e4cd417bc58, type: 3}
+        <ItemID>k__BackingField: Piano
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: ed28511067a95154892d2d17e0f0e9f6, type: 3}
+        <ItemID>k__BackingField: Bell
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 4d71a0ea733ba1b4f9a307ad80f82067, type: 3}
+        <ItemID>k__BackingField: Mike
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: f8c8f1e256ee81a4da0bf6f479c96636, type: 3}
+        <ItemID>k__BackingField: Xylophone
+        <ItemsCount>k__BackingField: 21
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 999da9e6b42f4ca49a99c4a6981bc782, type: 3}
+        <ItemID>k__BackingField: Violin
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_43
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 0
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 57342846875d1c246b4cf5fe48922fc8, type: 3}
+        <ItemID>k__BackingField: can
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 6dbbadf787f6ab14384daed90df0fbff, type: 3}
+        <ItemID>k__BackingField: Grape
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 8f44fe058a9abf64686c4c6319d1e440, type: 3}
+        <ItemID>k__BackingField: Can2
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 1b7603fde50445a41b07ab65c6bf95ef, type: 3}
+        <ItemID>k__BackingField: Ice
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 090802ce933af7646b3d43bfaf37b7b6, type: 3}
+        <ItemID>k__BackingField: Apple
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 3f7e6ac12e5136f4c88f18b19fccab5f, type: 3}
+        <ItemID>k__BackingField: Pig
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: cd35dd032e8a7574a85049a5f61f0678, type: 3}
+        <ItemID>k__BackingField: Robot
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 56a5253e5c029874ebddc917016efa8a, type: 3}
+        <ItemID>k__BackingField: Watermelon
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: b4d6f269548b23f4ebf518f2affb3865, type: 3}
+        <ItemID>k__BackingField: Ladybug
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 2d04ca75e2d494f4fb554fcb7e4329aa, type: 3}
+        <ItemID>k__BackingField: Cup
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 96573e85246b75242be4151aab6546a5, type: 3}
+        <ItemID>k__BackingField: Fish
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 19a9d5930f106f54db6133d32baca8c4, type: 3}
+        <ItemID>k__BackingField: FriedEgg
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 9284bcb9eab70524c9780204056b6910, type: 3}
+        <ItemID>k__BackingField: Butterfly4
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 02a9508250be65a45b94ccffd68f67ca, type: 3}
+        <ItemID>k__BackingField: Cherry
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 1e0fb86fbc5da5b45bf59d9740d5a78f, type: 3}
+        <ItemID>k__BackingField: Can3
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: dd9f00b355c13c642ae7232a4a28ee47, type: 3}
+        <ItemID>k__BackingField: Bread
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 84990d333b553e045882f2d370bc0f9f, type: 3}
+        <ItemID>k__BackingField: Number0
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 44dd4b4f601008e4196d98a261787c31, type: 3}
+        <ItemID>k__BackingField: Banana
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 82b221f28b0019248bab6ae0b41cdc30, type: 3}
+        <ItemID>k__BackingField: Cup2
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: b8e672b08adf5d441824728b9aac3b32, type: 3}
+        <ItemID>k__BackingField: Cactus_1
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 54c32a037c768054d92068328036c96d, type: 3}
+        <ItemID>k__BackingField: Book4
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 4443747696978ee45bdb934e20732665, type: 3}
+        <ItemID>k__BackingField: CylinderHat1
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 57fd5a7e06930ea459c7ccfaf15963a0, type: 3}
+        <ItemID>k__BackingField: BunnyEars1
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 957f6f8ce7e95e049ad64e3c0258320c, type: 3}
+        <ItemID>k__BackingField: FrozenYogurt
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 5eccb7ab9b18f8c4ebb3564b29a0112c, type: 3}
+        <ItemID>k__BackingField: Driver2
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 8ca0c177279151e4bbac34bce138c1b4, type: 3}
+        <ItemID>k__BackingField: Bone
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: fc7288bce9619514aa43a9c4ab4e034b, type: 3}
+        <ItemID>k__BackingField: TrafficCone
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: dc188d05bfa4bd740937e05a46a42683, type: 3}
+        <ItemID>k__BackingField: WoodBarrel
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 615e36c1e4fdde04a890b8f9a064f43a, type: 3}
+        <ItemID>k__BackingField: FrenchFries
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: d2c5d759e3ed5424f98d73040a79836a, type: 3}
+        <ItemID>k__BackingField: Diamond2
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 221353bebf2509543b84deeeb5118762, type: 3}
+        <ItemID>k__BackingField: Orange
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 8c3b533f98e1d5443993ae94c243019f, type: 3}
+        <ItemID>k__BackingField: Driver
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 09ff51d7e02b0894494d996a24e85df6, type: 3}
+        <ItemID>k__BackingField: Airplane3
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 0da12afb0e4456a45b56c8ed1261ab19, type: 3}
+        <ItemID>k__BackingField: Candy
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 1c2ce53936d6c6f4e8c61766b952a67f, type: 3}
+        <ItemID>k__BackingField: MagnifyingGlass
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: d078cb32915a7064f9ac8d9d4d8b930e, type: 3}
+        <ItemID>k__BackingField: Number7
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: f821f4a515ce16946be3dadc7b50e78d, type: 3}
+        <ItemID>k__BackingField: Bubble
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_44
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 2
+        seconds: 15
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 64c75d51a39bba4469c04e2ea2f998a9, type: 3}
+        <ItemID>k__BackingField: Number1
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: 964db29a39b878942958f2a371823d8d, type: 3}
+        <ItemID>k__BackingField: Number2
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: ab93f4f9164273e469b8b9687a3c2fc7, type: 3}
+        <ItemID>k__BackingField: Number3
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: 58e3c002ae3af274598eb207f6c3f223, type: 3}
+        <ItemID>k__BackingField: Number4
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: f19f63a29377dcf4ab6e5b9bc4dda8a1, type: 3}
+        <ItemID>k__BackingField: Number5
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: a244f67330cb0c44999d4f2dc55a7ae8, type: 3}
+        <ItemID>k__BackingField: Number6
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: fd16111cf5e593d42bf19550d8bf3203, type: 3}
+        <ItemID>k__BackingField: Dice
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 5bca935f4b7b9aa49ae946b232961fec, type: 3}
+        <ItemID>k__BackingField: Airplane
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 09ff51d7e02b0894494d996a24e85df6, type: 3}
+        <ItemID>k__BackingField: Airplane3
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 34d75474e40f68f4e9a793fa1f5e77be, type: 3}
+        <ItemID>k__BackingField: Airplane4
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 8cd2d960544054d4a9f6c5208adf9ab8, type: 3}
+        <ItemID>k__BackingField: Cloud
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: beef2aaf832970d47b1c7cdf7bd0a9c6, type: 3}
+        <ItemID>k__BackingField: TextA
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: f200225f4d46c0b4a8b18647d6a47af2, type: 3}
+        <ItemID>k__BackingField: TextE
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 001b6c7e864ea4947877c03ef3f6f467, type: 3}
+        <ItemID>k__BackingField: TextM
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: bf2871bad117c2c41b4a63cfd7c32bde, type: 3}
+        <ItemID>k__BackingField: TextR
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: c24647b44345ae243bf2287d9e3e4f47, type: 3}
+        <ItemID>k__BackingField: TextU
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: a5634ccb0b323b34f857ff8501cd8776, type: 3}
+        <ItemID>k__BackingField: QuestionMark
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 18e6b1313db628e439c679c73fff62fe, type: 3}
+        <ItemID>k__BackingField: TextN
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: da67aaaa00187d8438b2925cfd9fdead, type: 3}
+        <ItemID>k__BackingField: TextB
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_45
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 30
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: e70b5435375838443bb5d119f97a8650, type: 3}
+        <ItemID>k__BackingField: CupCake
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 58e3c002ae3af274598eb207f6c3f223, type: 3}
+        <ItemID>k__BackingField: Number4
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: 44dd4b4f601008e4196d98a261787c31, type: 3}
+        <ItemID>k__BackingField: Banana
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: eea0e744febb8204a8349d5fb480fcb9, type: 3}
+        <ItemID>k__BackingField: Giftbox2
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 4c5d07a27385ea24297730a63b5cf020, type: 3}
+        <ItemID>k__BackingField: Giftbox4
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 0d01bad378f2ee940934beb0b08f549e, type: 3}
+        <ItemID>k__BackingField: Frog
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 434b213ae30b97240970b2c856ab1a46, type: 3}
+        <ItemID>k__BackingField: Star
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 5cfd39a55a64e6f4b82717b59f8ef2a9, type: 3}
+        <ItemID>k__BackingField: Cup1
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: e0d632febb8f2434b968893b91ec0a24, type: 3}
+        <ItemID>k__BackingField: Fly
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: cb4d327c52c7f57469bd9e26ee3c3253, type: 3}
+        <ItemID>k__BackingField: Garlic
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: fbbdae6968b0e064caaae29ff2ff9b1c, type: 3}
+        <ItemID>k__BackingField: Cheese
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: a5634ccb0b323b34f857ff8501cd8776, type: 3}
+        <ItemID>k__BackingField: QuestionMark
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: c2eafee33acc39c45b034e7df929c808, type: 3}
+        <ItemID>k__BackingField: Butterfly
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: e6ca664a9b5a51d43b9d1cbeb8d8917a, type: 3}
+        <ItemID>k__BackingField: Butterfly2
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 75ef7a5e55d8e0c45aadfe597d07186b, type: 3}
+        <ItemID>k__BackingField: Butterfly3
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 53fcf72472c13ea4095d9bc756b0684e, type: 3}
+        <ItemID>k__BackingField: Fan
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_46
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 15
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 133292dbc533ba04f9dddd62efce40a5, type: 3}
+        <ItemID>k__BackingField: Basket2
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 34d75474e40f68f4e9a793fa1f5e77be, type: 3}
+        <ItemID>k__BackingField: Airplane4
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: dca098405a3cbcd498625f8c176a50be, type: 3}
+        <ItemID>k__BackingField: Ball1
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: 6a6bfcaa4314b034abeb51db4ffee9bd, type: 3}
+        <ItemID>k__BackingField: Kettle
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 35a182de6c73ece49bad46e4dc060b6f, type: 3}
+        <ItemID>k__BackingField: Can1
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: cd35dd032e8a7574a85049a5f61f0678, type: 3}
+        <ItemID>k__BackingField: Robot
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 7c176c6792360404698559989f6b3d42, type: 3}
+        <ItemID>k__BackingField: Backpack2
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: ef9dbcc953e350a4d95bbb169758b1cf, type: 3}
+        <ItemID>k__BackingField: Bunny
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: b61f5d86ff5f95344a07a7d400053bf8, type: 3}
+        <ItemID>k__BackingField: Bunny1
+        <ItemsCount>k__BackingField: 15
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 3b3a5e661141f2640a3b6c707a6de9da, type: 3}
+        <ItemID>k__BackingField: DinosaurEgg1
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 97b4f824a6e06524eaaed968eb27d98f, type: 3}
+        <ItemID>k__BackingField: DinosaurEgg2
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: f64cf08c37f95d04898f6d698c204f92, type: 3}
+        <ItemID>k__BackingField: BarrelMetal1
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_47
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 1
+        seconds: 55
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 75ef7a5e55d8e0c45aadfe597d07186b, type: 3}
+        <ItemID>k__BackingField: Butterfly3
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: fe642838f58c77e48bf68734e50ca479, type: 3}
+        <ItemID>k__BackingField: Butterfly1
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 9284bcb9eab70524c9780204056b6910, type: 3}
+        <ItemID>k__BackingField: Butterfly4
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 34d75474e40f68f4e9a793fa1f5e77be, type: 3}
+        <ItemID>k__BackingField: Airplane4
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 413178dfbe8dc1644b41f6828b0768d8, type: 3}
+        <ItemID>k__BackingField: Hen
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 53fdf023396f4dc418aeb539c20e591c, type: 3}
+        <ItemID>k__BackingField: Cow
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 6dbbadf787f6ab14384daed90df0fbff, type: 3}
+        <ItemID>k__BackingField: Grape
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: b0cf8261ebfb0ba49b3af18e98a392cb, type: 3}
+        <ItemID>k__BackingField: Apple3
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 09ff51d7e02b0894494d996a24e85df6, type: 3}
+        <ItemID>k__BackingField: Airplane3
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 924555a39b208e148988a83d07ef7276, type: 3}
+        <ItemID>k__BackingField: Guitar
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 437ab0ae0bd8da449ab3afb1e9bd24b7, type: 3}
+        <ItemID>k__BackingField: Log
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: b8e672b08adf5d441824728b9aac3b32, type: 3}
+        <ItemID>k__BackingField: Cactus_1
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 0d1acef4a2a0ba24d9b5b7af472b1edf, type: 3}
+        <ItemID>k__BackingField: Apple1
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: c033633fc66156947b78469d2ff66df7, type: 3}
+        <ItemID>k__BackingField: Balloon
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 0da12afb0e4456a45b56c8ed1261ab19, type: 3}
+        <ItemID>k__BackingField: Candy
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 999da9e6b42f4ca49a99c4a6981bc782, type: 3}
+        <ItemID>k__BackingField: Violin
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: fd16111cf5e593d42bf19550d8bf3203, type: 3}
+        <ItemID>k__BackingField: Dice
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 4443747696978ee45bdb934e20732665, type: 3}
+        <ItemID>k__BackingField: CylinderHat1
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 6ed3f4ea1e8753744b8e582fec61cdf1, type: 3}
+        <ItemID>k__BackingField: Bicycle
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 9f9ae901845f4ee41aa527141dd0c649, type: 3}
+        <ItemID>k__BackingField: AstronautHelmet1
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_48
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 2
+        seconds: 30
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 0b3d34503fb52ad4292fc98446897c70, type: 3}
+        <ItemID>k__BackingField: Rocket
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 18
+      - Icon: {fileID: 21300000, guid: 8f87dff403dfaf34b8f756ed3568f1b2, type: 3}
+        <ItemID>k__BackingField: Drum
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 5bca935f4b7b9aa49ae946b232961fec, type: 3}
+        <ItemID>k__BackingField: Airplane
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 376c9d6d1f7ae174d84bb8bed560ba7c, type: 3}
+        <ItemID>k__BackingField: Ufo
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 434b213ae30b97240970b2c856ab1a46, type: 3}
+        <ItemID>k__BackingField: Star
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: f38e9dbffc5ec5341a6ff572be7caf78, type: 3}
+        <ItemID>k__BackingField: Globe
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 9f9ae901845f4ee41aa527141dd0c649, type: 3}
+        <ItemID>k__BackingField: AstronautHelmet1
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 313706fc0224fee41ba413cc9630e95a, type: 3}
+        <ItemID>k__BackingField: Rocket1
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 4a92f026b1ca58448bd9516230d3d296, type: 3}
+        <ItemID>k__BackingField: Earth
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 9c34438f6bff50f4296c47618543c53b, type: 3}
+        <ItemID>k__BackingField: Moon
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 4aa4df6f4958115439aee9e26ae4f5fc, type: 3}
+        <ItemID>k__BackingField: Meteor
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_49
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 3
+        seconds: 15
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 27a6826e44a5d844eb4081ecbf6c581d, type: 3}
+        <ItemID>k__BackingField: Acorn
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 9
+      - Icon: {fileID: 21300000, guid: 618421915d3d1104cbe3f6d968ef68fa, type: 3}
+        <ItemID>k__BackingField: LesserPanda
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 6
+      - Icon: {fileID: 21300000, guid: b8e672b08adf5d441824728b9aac3b32, type: 3}
+        <ItemID>k__BackingField: Cactus_1
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: 437ab0ae0bd8da449ab3afb1e9bd24b7, type: 3}
+        <ItemID>k__BackingField: Log
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 08f447a8dc76e62468cf606eb3c92cf7, type: 3}
+        <ItemID>k__BackingField: Carrot
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 2e0afb11a448c99438fd7e4cd417bc58, type: 3}
+        <ItemID>k__BackingField: Piano
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 42c5f29b52003c848852d483eb5c7024, type: 3}
+        <ItemID>k__BackingField: Tree
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: fa805a70ebd076d488914cb38a41de9e, type: 3}
+        <ItemID>k__BackingField: Note
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 6dbbadf787f6ab14384daed90df0fbff, type: 3}
+        <ItemID>k__BackingField: Grape
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 307cba6b23f18494a8c25f9c51088e4d, type: 3}
+        <ItemID>k__BackingField: TextT
+        <ItemsCount>k__BackingField: 18
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 89d2e9d39a8e2d34c8c1cdd50aec6677, type: 3}
+        <ItemID>k__BackingField: Pea
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 0d01bad378f2ee940934beb0b08f549e, type: 3}
+        <ItemID>k__BackingField: Frog
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 999da9e6b42f4ca49a99c4a6981bc782, type: 3}
+        <ItemID>k__BackingField: Violin
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: cb2ec3b2dd7129947a363f7277218d57, type: 3}
+        <ItemID>k__BackingField: Horse
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 0d8ac85fa2c38474680bb9dba14adee6, type: 3}
+        <ItemID>k__BackingField: Hat
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 3b7c69d7d6f9da548a6c9b8d60ce1450, type: 3}
+        <ItemID>k__BackingField: Quail
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60
+  - <IsRepeat>k__BackingField: 1
+    <LevelID>k__BackingField: Level_50
+    <UseCustomLevelInfo>k__BackingField: 0
+    <LevelReference>k__BackingField:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    <LevelSettings>k__BackingField:
+      <Timer>k__BackingField:
+        minutes: 2
+        seconds: 45
+      <Items>k__BackingField:
+      - Icon: {fileID: 21300000, guid: 717ff107bc31aba49b2f94c0b22aa312, type: 3}
+        <ItemID>k__BackingField: TextL
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: 642f4be28c0ee9b458c95c4dbe2fe401, type: 3}
+        <ItemID>k__BackingField: TextO
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: 6111075a2f9ac3549a80f3687b771efd, type: 3}
+        <ItemID>k__BackingField: TextV
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: f200225f4d46c0b4a8b18647d6a47af2, type: 3}
+        <ItemID>k__BackingField: TextE
+        <ItemsCount>k__BackingField: 3
+        <TargetCount>k__BackingField: 3
+      - Icon: {fileID: 21300000, guid: 090802ce933af7646b3d43bfaf37b7b6, type: 3}
+        <ItemID>k__BackingField: Apple
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: ec5d8ea57a17dd74390e1c2e5d249264, type: 3}
+        <ItemID>k__BackingField: Tomato
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 8cd2d960544054d4a9f6c5208adf9ab8, type: 3}
+        <ItemID>k__BackingField: Cloud
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 84990d333b553e045882f2d370bc0f9f, type: 3}
+        <ItemID>k__BackingField: Number0
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 02a9508250be65a45b94ccffd68f67ca, type: 3}
+        <ItemID>k__BackingField: Cherry
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 44365f47feac6e44d9b97f1398a2c9eb, type: 3}
+        <ItemID>k__BackingField: Pillow
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 4afefea5ed8b9374394ea8da91f37fea, type: 3}
+        <ItemID>k__BackingField: Spoon
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 30d620d5f7262654b848482cc2dc489d, type: 3}
+        <ItemID>k__BackingField: PotionRed
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: ed66305876ca73d44871d9918cfa3d64, type: 3}
+        <ItemID>k__BackingField: TextW
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 001b6c7e864ea4947877c03ef3f6f467, type: 3}
+        <ItemID>k__BackingField: TextM
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 1cd774d79db50b5488ecb1e1f6c66eb7, type: 3}
+        <ItemID>k__BackingField: TextG
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 1b687564dca282f4a908c4f6f8e38a5a, type: 3}
+        <ItemID>k__BackingField: Number9
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: e7fe56bac216de444a6bf4592458a412, type: 3}
+        <ItemID>k__BackingField: Cake
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 75ef7a5e55d8e0c45aadfe597d07186b, type: 3}
+        <ItemID>k__BackingField: Butterfly3
+        <ItemsCount>k__BackingField: 12
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 964db29a39b878942958f2a371823d8d, type: 3}
+        <ItemID>k__BackingField: Number2
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 32cc8f919ac91d24d8dc757952e12cbb, type: 3}
+        <ItemID>k__BackingField: TextY
+        <ItemsCount>k__BackingField: 9
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: d078cb32915a7064f9ac8d9d4d8b930e, type: 3}
+        <ItemID>k__BackingField: Number7
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      - Icon: {fileID: 21300000, guid: 93d26622822af7c49ae4da2079520a00, type: 3}
+        <ItemID>k__BackingField: Fork
+        <ItemsCount>k__BackingField: 6
+        <TargetCount>k__BackingField: 0
+      <ProgressStarts>k__BackingField:
+      - NumberStar: 1
+        PercentTimeReceive: 10
+      - NumberStar: 2
+        PercentTimeReceive: 30
+      - NumberStar: 3
+        PercentTimeReceive: 60

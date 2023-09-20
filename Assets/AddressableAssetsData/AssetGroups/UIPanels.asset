@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UIPanels
+  m_EditorClassIdentifier: 
+  m_GroupName: UIPanels
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5ef206450cef94684927e10f2a97d7c3
+  m_SerializeEntries:
+  - m_GUID: c454f8de250074e2e912f4f037c018ce
+    m_Address: Assets/Game/Content/Prefabs/UI/Panels/GameLoadingPanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c14644ad3cec343a89086a6a91a113cb
+    m_Address: Assets/Game/Content/Prefabs/UI/Panels/ResultPanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fb6b3e58e9cd24409ef1423a6c55748
+    m_Address: Assets/Game/Content/Prefabs/UI/Panels/LevelPanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0788d2e710ba4482c9a646634d3b0e45
+    m_Address: Assets/Game/Content/Prefabs/UI/Panels/MenuPanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3cbfec8ceb9f4341a1d4d9b643d1345
+    m_Address: Assets/Game/Content/Prefabs/UI/Panels/PausePanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b008e4014d8646d5998805dc906b493
+    m_Address: Assets/Game/Content/Prefabs/UI/Panels/CustomDebugPanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 94fcf6a28e2984320b78887ad6e33c48, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 845abcba0f1614c40a756181b163b579, type: 2}
+    - {fileID: 11400000, guid: 8b64adf3194da4d818e25826718e686d, type: 2}

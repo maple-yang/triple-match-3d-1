@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2215295414213288849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6997173402906554426}
+  - component: {fileID: 5239374018168948142}
+  - component: {fileID: 1407555933181242505}
+  m_Layer: 0
+  m_Name: YandexGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6997173402906554426
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2215295414213288849}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5239374018168948142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2215295414213288849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 404d6214ebdd58d43a94c7ed650dc2f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infoYG: {fileID: 11400000, guid: 1aed23cf09a7e43fba53b36faecf4550, type: 2}
+  singleton: 0
+  ResolvedAuthorization:
+    m_PersistentCalls:
+      m_Calls: []
+  RejectedAuthorization:
+    m_PersistentCalls:
+      m_Calls: []
+  OpenFullscreenAd:
+    m_PersistentCalls:
+      m_Calls: []
+  CloseFullscreenAd:
+    m_PersistentCalls:
+      m_Calls: []
+  ErrorFullscreenAd:
+    m_PersistentCalls:
+      m_Calls: []
+  OpenVideoAd:
+    m_PersistentCalls:
+      m_Calls: []
+  CloseVideoAd:
+    m_PersistentCalls:
+      m_Calls: []
+  RewardVideoAd:
+    m_PersistentCalls:
+      m_Calls: []
+  ErrorVideoAd:
+    m_PersistentCalls:
+      m_Calls: []
+  PurchaseSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  PurchaseFailed:
+    m_PersistentCalls:
+      m_Calls: []
+  PromptDo:
+    m_PersistentCalls:
+      m_Calls: []
+  PromptFail:
+    m_PersistentCalls:
+      m_Calls: []
+  ReviewDo:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1407555933181242505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2215295414213288849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5b227a20855044e9f75626696e0719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseType: 0
+  pauseMethod: 0
+  openingADValues:
+    timeScale: 0
+  closingADValues:
+    timeScale: 1
+    audioPause: 0
+    cursorVisible: 0
+    cursorLockMode: 0
+  customEvents:
+    OpenAd:
+      m_PersistentCalls:
+        m_Calls: []
+    CloseAd:
+      m_PersistentCalls:
+        m_Calls: []
